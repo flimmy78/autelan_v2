@@ -3,10 +3,10 @@
 ############
 *.o
 
-
 ############
 #  floders #
 ############
 /release/
 /custom/
 /ptest/
+/autelan_scripts/
