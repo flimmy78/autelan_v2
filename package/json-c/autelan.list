@@ -1,0 +1,7 @@
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating json-c.pc
+config.status: creating tests/Makefile
+config.status: creating json-c-uninstalled.pc
+config.status: creating config.h
+config.status: creating json_config.h

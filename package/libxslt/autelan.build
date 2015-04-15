@@ -1,0 +1,16 @@
+#!/bin/bash
+
+if [ -z "${hisitopdir}" ]; then export hisitopdir=$(pwd)/../..; fi
+. ${hisitopdir}/autelan_scripts/autelan.apps
+
+touch doc/xsltproc.1
+
+package_common "$(pwd)"
+
+RM ${auterelease}/usr/lib/pkgconfig
+RM ${auterelease}/usr/lib/libxslt-plugins
+
+RM ${auterelease}/usr/lib/libxslt.la
+RM ${auterelease}/usr/lib/libexslt.la
+RM ${auterelease}/usr/lib/xsltConf.sh
+

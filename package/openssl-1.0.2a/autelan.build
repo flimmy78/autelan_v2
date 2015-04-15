@@ -1,0 +1,15 @@
+#!/bin/bash
+
+if [ -z "${hisitopdir}" ]; then export hisitopdir=$(pwd)/../..; fi
+. ${hisitopdir}/autelan_scripts/autelan.apps
+
+package_common "$(pwd)"
+
+mkdir -p ${autefake}/usr/local/include
+CP ${auterelease}/usr/local/include/* ${autefake}/usr/local/include
+
+RM ${auterelease}/usr/local/include
+RM ${auterelease}/usr/local/lib/engines
+RM ${auterelease}/usr/local/lib/pkgconfig
+RM ${auterelease}/usr/local/ssl/man
+

@@ -1,0 +1,11 @@
+prefix=/home/hisisdk/histb_v2/autelan/rootfs/json-c/../../release/usr
+exec_prefix=${prefix}
+libdir=/home/hisisdk/histb_v2/autelan/rootfs/json-c/../../release/usr/lib
+includedir=/home/hisisdk/histb_v2/autelan/rootfs/json-c/../../fakerelease/usr/include
+
+Name: json-c
+Description: JSON implementation in C
+Version: 0.12.99
+Requires: 
+Libs:  -L${libdir} -ljson-c
+Cflags: -I${includedir}/json-c

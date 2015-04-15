@@ -1,0 +1,15 @@
+#!/bin/bash
+
+if [ -z "${hisitopdir}" ]; then export hisitopdir=$(pwd)/../..; fi
+. ${hisitopdir}/autelan_scripts/autelan.apps
+
+package_common "$(pwd)"
+
+rm -fr ${auterelease}/usr/lib/pkgconfig
+rm -fr ${auterelease}/usr/lib/cmake
+rm -f ${auterelease}/usr/lib/libxml2.la
+rm -f ${auterelease}/usr/lib/xml2Conf.sh
+rm -f ${auterelease}/usr/lib/xsltConf.sh
+
+
+
