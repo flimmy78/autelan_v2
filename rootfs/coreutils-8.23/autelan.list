@@ -1,0 +1,7 @@
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating po/Makefile.in
+config.status: creating gnulib-tests/Makefile
+config.status: creating lib/config.h
+config.status: creating po/POTFILES
+config.status: creating po/Makefile

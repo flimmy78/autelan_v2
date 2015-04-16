@@ -1,0 +1,9 @@
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating buildpkg.sh
+config.status: creating opensshd.init
+config.status: creating openssh.xml
+config.status: creating openbsd-compat/Makefile
+config.status: creating openbsd-compat/regress/Makefile
+config.status: creating survey.sh
+config.status: creating config.h

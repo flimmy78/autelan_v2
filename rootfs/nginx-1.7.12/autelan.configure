@@ -1,0 +1,50 @@
+#!/bin/bash
+
+if [ -z "${hisitopdir}" ]; then export hisitopdir=$(pwd)/../..; fi
+. ${hisitopdir}/autelan_scripts/autelan.apps
+
+	CC=${hisiprefix}-gcc \
+	GCC=${hisiprefix}-gcc \
+	CXX=${hisiprefix}-g++ \
+	CFLAGS=" \
+		-O2 \
+		-I${hisitools}/usr/include \
+		-I${autefake}/usr/include -I${autefake}/usr/local/include \
+		" \
+	LDFLAGS=" \
+		-L${hisitools}/lib -L${hisitools}/usr/lib \
+		-L${auterelease}/lib -L${auterelease}/usr/lib -L${auterelease}/usr/local/lib \
+		" \
+./configure \
+	--prefix=${auterelease}/usr \
+	--sbin-path=${auterelease}/usr/sbin/ \
+	--conf-path=/tmp/config/nginx/nginx.conf \
+	--error-log-path=/tmp/log/nginx/error.log \
+	--http-log-path=/tmp/log/nginx/access.log \
+	--pid-path=/tmp/pid/nginx/nginx.pid \
+	\
+	--with-poll_module \
+	--with-http_realip_module \
+	--with-http_addition_module \
+	--with-http_xslt_module \
+	--with-http_auth_request_module \
+	--with-pcre=${auterootfs}/$(get_app_name pcre) \
+	--with-zlib=${auterootfs}/$(get_app_name zlib) \
+	--with-openssl=${auterootfs}/$(get_app_name ssl) \
+	--with-cc-opt=" \
+		-O2 \
+		-I${hisitools}/usr/include \
+		-I${autefake}/usr/include \
+		-I${autefake}/usr/local/include \
+		" \
+	--with-ld-opt=" \
+		-L${hisitools}/lib \
+		-L${hisitools}/usr/lib \
+		-L${auterelease}/lib \
+		-L${auterelease}/usr/lib \
+		-L${auterelease}/usr/local/lib \
+		" \
+	;
+
+echo "after call $0, need change objs/Makefile manual!!!"
+

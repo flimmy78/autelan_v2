@@ -1,0 +1,14 @@
+configure: creating ./config.status
+config.status: creating po/Makefile.in
+config.status: creating m4/Makefile
+config.status: creating Doxyfile
+config.status: creating Makefile
+config.status: creating popt.pc
+config.status: creating popt.spec
+config.status: creating test-poptrc
+config.status: creating auto/Makefile
+config.status: creating auto/desc
+config.status: creating auto/types
+config.status: creating config.h
+config.status: creating po/POTFILES
+config.status: creating po/Makefile

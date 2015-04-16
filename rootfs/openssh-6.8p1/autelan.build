@@ -1,0 +1,13 @@
+#!/bin/bash
+
+if [ -z "${hisitopdir}" ]; then export hisitopdir=$(pwd)/../..; fi
+. ${hisitopdir}/autelan_scripts/autelan.apps
+
+rm -fr /tmp/config/* /tmp/pid/*
+mkdir -p /tmp/config/ssh /tmp/pid/ssh
+
+package_common "$(pwd)"
+
+mkdir -p ${auterelease}/usr/local/ssh/conf
+cp -fpR /tmp/config/ssh/* ${auterelease}/usr/local/ssh/conf
+

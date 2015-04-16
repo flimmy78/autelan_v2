@@ -1,0 +1,10 @@
+prefix=/home/hisisdk/histb_v2/autelan/rootfs/popt-1.16/../../release/usr
+exec_prefix=${prefix}
+libdir=/home/hisisdk/histb_v2/autelan/rootfs/popt-1.16/../../release/usr/lib
+includedir=/home/hisisdk/histb_v2/autelan/rootfs/popt-1.16/../../fakerelease/usr/include
+
+Name: popt
+Version: 1.16
+Description: popt library.
+Libs: -L${libdir} -lpopt
+Cflags: -I${includedir}

@@ -1,0 +1,12 @@
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating libpcre.pc
+config.status: creating libpcre16.pc
+config.status: creating libpcre32.pc
+config.status: creating libpcreposix.pc
+config.status: creating libpcrecpp.pc
+config.status: creating pcre-config
+config.status: creating pcre.h
+config.status: creating pcre_stringpiece.h
+config.status: creating pcrecpparg.h
+config.status: creating config.h

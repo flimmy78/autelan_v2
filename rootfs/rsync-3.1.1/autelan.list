@@ -1,0 +1,7 @@
+configure.sh: creating ./config.status
+config.status: creating Makefile
+config.status: creating lib/dummy
+config.status: creating zlib/dummy
+config.status: creating popt/dummy
+config.status: creating shconfig
+config.status: creating config.h

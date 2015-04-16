@@ -1,0 +1,14 @@
+prefix=/home/hisisdk/histb_v2/autelan/rootfs/onig-5.9.6/../../release/usr
+exec_prefix=/home/hisisdk/histb_v2/autelan/rootfs/onig-5.9.6/../../release/usr
+libdir=/home/hisisdk/histb_v2/autelan/rootfs/onig-5.9.6/../../release/usr/lib
+includedir=/home/hisisdk/histb_v2/autelan/rootfs/onig-5.9.6/../../fakerelease/usr/include
+datarootdir=/home/hisisdk/histb_v2/autelan/rootfs/onig-5.9.6/../../fakerelease/usr/share
+datadir=/home/hisisdk/histb_v2/autelan/rootfs/onig-5.9.6/../../fakerelease/usr/share
+
+Name: oniguruma
+Description: Regular expression library
+Version: 5.9.6
+Requires:
+Libs: -L${libdir} -lonig
+Cflags: -I${includedir}
+

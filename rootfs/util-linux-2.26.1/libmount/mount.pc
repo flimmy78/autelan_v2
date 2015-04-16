@@ -1,0 +1,11 @@
+prefix=/home/hisisdk/histb_v2/autelan/rootfs/util-linux-2.26.1/../../release
+exec_prefix=/home/hisisdk/histb_v2/autelan/rootfs/util-linux-2.26.1/../../release
+libdir=/home/hisisdk/histb_v2/autelan/rootfs/util-linux-2.26.1/../../release/lib
+includedir=/home/hisisdk/histb_v2/autelan/rootfs/util-linux-2.26.1/../../fakerelease/usr/include
+
+Name: mount
+Description: mount library
+Version: 2.26.0
+Requires.private: blkid
+Cflags: -I${includedir}/libmount
+Libs: -L${libdir} -lmount
