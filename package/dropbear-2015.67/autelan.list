@@ -1,0 +1,5 @@
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating libtomcrypt/Makefile
+config.status: creating libtommath/Makefile
+config.status: creating config.h

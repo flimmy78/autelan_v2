@@ -1,0 +1,13 @@
+#!/bin/bash
+
+if [ -z "${hisitopdir}" ]; then export hisitopdir=$(pwd)/../..; fi
+. ${hisitopdir}/autelan_scripts/autelan.apps
+
+rm -fr /tmp/config/* /tmp/log/* /tmp/pid/*
+mkdir -p /tmp/config/nginx /tmp/log/nginx /tmp/pid/nginx
+
+package_common "$(pwd)"
+
+mkdir -p ${auterelease}/usr/local/nginx/conf/
+cp -fpR /tmp/config/nginx/* ${auterelease}/usr/local/nginx/conf/
+

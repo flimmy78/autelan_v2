@@ -1,0 +1,8 @@
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating wifidog.spec
+config.status: creating wifidog-msg.html
+config.status: creating src/Makefile
+config.status: creating libhttpd/Makefile
+config.status: creating doc/Makefile
+config.status: creating config.h

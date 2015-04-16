@@ -1,0 +1,6 @@
+configure: creating ./config.status
+config.status: creating xmlstarlet.spec
+config.status: creating Makefile
+config.status: creating solaris/package/sol8-sparc/pkginfo
+config.status: creating solaris/package/sol9-sparc/pkginfo
+config.status: creating config.h

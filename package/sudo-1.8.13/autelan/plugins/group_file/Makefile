@@ -1,0 +1,168 @@
+#
+# Copyright (c) 2010-2014 Todd C. Miller <Todd.Miller@courtesan.com>
+#
+# Permission to use, copy, modify, and distribute this software for any
+# purpose with or without fee is hereby granted, provided that the above
+# copyright notice and this permission notice appear in all copies.
+#
+# THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+# WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+# MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+# ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+# WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+# ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+# OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+# ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+#
+# plugins/group_file/Makefile.  Generated from Makefile.in by configure.
+#
+
+#### Start of system configuration section. ####
+
+srcdir = .
+devdir = $(srcdir)
+top_builddir = ../..
+top_srcdir = ../..
+incdir = $(top_srcdir)/include
+cross_compiling = yes
+
+# Compiler & tools to use
+CC = arm-hisiv200-linux-gcc -std=gnu99
+LIBTOOL = $(SHELL) $(top_builddir)/libtool --tag=disable-static
+SED = /bin/sed
+AWK = gawk
+
+# Our install program supports extra flags...
+INSTALL = $(SHELL) $(top_srcdir)/install-sh -c
+INSTALL_OWNER = -o $(install_uid) -g $(install_gid)
+
+# Libraries
+LT_LIBS = $(top_builddir)/lib/util/libsudo_util.la
+LIBS = $(LT_LIBS)
+
+# C preprocessor flags
+CPPFLAGS = -I$(incdir) -I$(top_builddir) -I$(top_srcdir) -D__STDC_WANT_LIB_EXT1__=1
+
+# Usually -O and/or -g
+CFLAGS =  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/rootfs/sudo-1.8.13/../../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/sudo-1.8.13/../../fakerelease/usr/local/include 		 -fvisibility=hidden
+
+# Flags to pass to the link stage
+LDFLAGS =  		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/rootfs/sudo-1.8.13/../../release/lib -L/home/hisisdk/histb_v2/autelan/rootfs/sudo-1.8.13/../../release/usr/lib -L/home/hisisdk/histb_v2/autelan/rootfs/sudo-1.8.13/../../release/usr/local/lib 		 -Wl,-z,relro
+LT_LDFLAGS =  
+
+# PIE flags
+PIE_CFLAGS = 
+PIE_LDFLAGS = 
+
+# Stack smashing protection flags
+SSP_CFLAGS = -fstack-protector-all
+SSP_LDFLAGS = -Wc,-fstack-protector-all
+
+# cppcheck options, usually set in the top-level Makefile
+CPPCHECK_OPTS = -q --force --enable=warning,performance,portability --suppress=constStatement --error-exitcode=1 --inline-suppr -Dva_copy=va_copy -U__cplusplus -UQUAD_MAX -UQUAD_MIN -UUQUAD_MAX -U_POSIX_HOST_NAME_MAX -U_POSIX_PATH_MAX -U__NBBY -DNSIG=64
+
+# Where to install things...
+prefix = /home/hisisdk/histb_v2/autelan/rootfs/sudo-1.8.13/../../release/usr
+exec_prefix = $(prefix)
+bindir = /home/hisisdk/histb_v2/autelan/rootfs/sudo-1.8.13/../../release/usr/bin
+sbindir = /home/hisisdk/histb_v2/autelan/rootfs/sudo-1.8.13/../../release/usr/sbin
+sysconfdir = /home/hisisdk/histb_v2/autelan/rootfs/sudo-1.8.13/../../release/etc
+libexecdir = /home/hisisdk/histb_v2/autelan/rootfs/sudo-1.8.13/../../release/usr/lib
+datarootdir = /home/hisisdk/histb_v2/autelan/rootfs/sudo-1.8.13/../../fakerelease/usr/share
+localstatedir = /home/hisisdk/histb_v2/autelan/rootfs/sudo-1.8.13/../../release/var
+plugindir = /home/hisisdk/histb_v2/autelan/rootfs/sudo-1.8.13/../../release/usr/lib/sudo
+
+# File mode and map file to use for shared libraries/objects
+shlib_enable = yes
+shlib_mode = 0644
+shlib_exp = $(srcdir)/group_file.exp
+shlib_map = group_file.map
+shlib_opt = group_file.opt
+
+# User and group ids the installed files should be "owned" by
+install_uid = 0
+install_gid = 0
+
+# OS dependent defines
+DEFS =  -D_GNU_SOURCE -D_FORTIFY_SOURCE=2
+
+#### End of system configuration section. ####
+
+SHELL = /bin/sh
+
+OBJS =	group_file.lo getgrent.lo
+
+LIBOBJDIR = $(top_builddir)/@ac_config_libobj_dir@/
+
+VERSION = 1.8.13
+
+all: group_file.la
+
+Makefile: $(srcdir)/Makefile.in
+	(cd $(top_builddir) && ./config.status --file plugins/group_file/Makefile)
+
+.SUFFIXES: .o .c .h .lo
+
+.c.lo:
+	$(LIBTOOL) --mode=compile $(CC) -c $(CPPFLAGS) $(CFLAGS) $(PIE_CFLAGS) $(SSP_CFLAGS) $(DEFS) $<
+
+$(shlib_map): $(shlib_exp)
+	@$(AWK) 'BEGIN { print "{\n\tglobal:" } { print "\t\t"$$0";" } END { print "\tlocal:\n\t\t*;\n};" }' $(shlib_exp) > $@
+
+$(shlib_opt): $(shlib_exp)
+	@$(SED) 's/^/+e /' $(shlib_exp) > $@
+
+group_file.la: $(OBJS) $(LT_LIBS) 
+	$(LIBTOOL) --mode=link $(CC) $(LDFLAGS) $(SSP_LDFLAGS) $(LT_LDFLAGS) -o $@ $(OBJS) $(LIBS) -module -avoid-version -rpath $(plugindir) -shrext .so
+
+pre-install:
+
+install: install-plugin
+
+install-dirs:
+	$(SHELL) $(top_srcdir)/mkinstalldirs $(DESTDIR)$(plugindir)
+
+install-binaries:
+
+install-includes:
+
+install-doc:
+
+install-plugin: install-dirs group_file.la
+	if [ X"$(shlib_enable)" = X"yes" ]; then \
+	    INSTALL_BACKUP='~' $(LIBTOOL) --mode=install $(INSTALL) $(INSTALL_OWNER) -m $(shlib_mode) group_file.la $(DESTDIR)$(plugindir); \
+	fi
+
+uninstall:
+	-$(LIBTOOL) --mode=uninstall rm -f $(DESTDIR)$(plugindir)/group_file.la
+	-rm -f $(DESTDIR)$(plugindir)/group_file.so~
+
+cppcheck:
+	cppcheck $(CPPCHECK_OPTS) -I$(incdir) -I$(top_builddir) -I$(top_srcdir) $(srcdir)/*.c
+
+check:
+
+clean:
+	-$(LIBTOOL) --mode=clean rm -f *.lo *.o *.la *.a stamp-* core *.core core.*
+
+mostlyclean: clean
+
+distclean: clean
+	-rm -rf Makefile .libs $(shlib_map) $(shlib_opt)
+
+clobber: distclean
+
+realclean: distclean
+	rm -f TAGS tags
+
+cleandir: realclean
+
+# Autogenerated dependencies, do not modify
+getgrent.lo: $(srcdir)/getgrent.c $(incdir)/compat/stdbool.h \
+             $(incdir)/sudo_compat.h $(incdir)/sudo_util.h \
+             $(top_builddir)/config.h
+	$(LIBTOOL) --mode=compile $(CC) -c $(CPPFLAGS) $(CFLAGS) $(PIE_CFLAGS) $(SSP_CFLAGS) $(DEFS) $(srcdir)/getgrent.c
+group_file.lo: $(srcdir)/group_file.c $(incdir)/compat/stdbool.h \
+               $(incdir)/sudo_compat.h $(incdir)/sudo_plugin.h \
+               $(top_builddir)/config.h
+	$(LIBTOOL) --mode=compile $(CC) -c $(CPPFLAGS) $(CFLAGS) $(PIE_CFLAGS) $(SSP_CFLAGS) $(DEFS) $(srcdir)/group_file.c

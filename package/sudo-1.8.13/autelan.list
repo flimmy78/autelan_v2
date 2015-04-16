@@ -1,0 +1,16 @@
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating doc/Makefile
+config.status: creating examples/Makefile
+config.status: creating include/Makefile
+config.status: creating lib/util/Makefile
+config.status: creating lib/util/util.exp
+config.status: creating src/sudo_usage.h
+config.status: creating src/Makefile
+config.status: creating plugins/sample/Makefile
+config.status: creating plugins/group_file/Makefile
+config.status: creating plugins/system_group/Makefile
+config.status: creating plugins/sudoers/Makefile
+config.status: creating plugins/sudoers/sudoers
+config.status: creating config.h
+config.status: creating pathnames.h

@@ -1,0 +1,16 @@
+#!/bin/bash
+
+if [ -z "${hisitopdir}" ]; then export hisitopdir=$(pwd)/../..; fi
+. ${hisitopdir}/autelan_scripts/autelan.apps
+
+mkdir -p /tmp/config/xinetd
+
+package_common "$(pwd)"
+
+#mkdir -p ${auterelease}/etc
+#mkdir -p ${auterelease}/etc/xinetd.d
+#cp contrib/xinetd.conf ${auterelease}/etc
+
+#rm -f ${auterelease}/sbin/itox
+
+

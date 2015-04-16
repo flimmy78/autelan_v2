@@ -1,0 +1,12 @@
+#!/bin/bash
+
+if [ -z "${hisitopdir}" ]; then export hisitopdir=$(pwd)/../..; fi
+. ${hisitopdir}/autelan_scripts/autelan.apps
+
+mkdir -p /tmp/config/wifidog
+
+package_common "$(pwd)"
+
+rm -fr ${auterelease}/usr/share/doc
+rm -fr ${auterelease}/usr/lib/*.la
+

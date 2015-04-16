@@ -1,0 +1,14 @@
+#!/bin/bash
+
+if [ -z "${hisitopdir}" ]; then export hisitopdir=$(pwd)/../..; fi
+. ${hisitopdir}/autelan_scripts/autelan.apps
+
+package_prepare "$(pwd)"
+package_compile "$(pwd)"
+
+mkdir -p ${auterelease}/usr/bin
+mkdir -p ${auterelease}/usr/lib
+
+cp -f src/.libs/sudo ${auterelease}/usr/bin/
+cp -f lib/util/.libs/libsudo_util.so.0 ${auterelease}/usr/lib/
+

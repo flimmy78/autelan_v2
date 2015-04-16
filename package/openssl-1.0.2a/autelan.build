@@ -12,4 +12,6 @@ RM ${auterelease}/usr/local/include
 RM ${auterelease}/usr/local/lib/engines
 RM ${auterelease}/usr/local/lib/pkgconfig
 RM ${auterelease}/usr/local/ssl/man
+RM ${auterelease}/usr/local/lib/libcrypto.a
+RM ${auterelease}/usr/local/lib/libssl.a
 

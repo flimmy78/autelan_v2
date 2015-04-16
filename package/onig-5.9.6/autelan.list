@@ -1,0 +1,5 @@
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating onig-config
+config.status: creating sample/Makefile
+config.status: creating config.h

@@ -1,0 +1,35 @@
+#!/bin/bash
+
+if [ -z "${hisitopdir}" ]; then export hisitopdir=$(pwd)/../..; fi
+. ${hisitopdir}/autelan_scripts/autelan.apps
+
+	CC=${hisiprefix}-gcc \
+	GCC=${hisiprefix}-gcc \
+	CXX=${hisiprefix}-g++ \
+	CFLAGS=" \
+		-O2 \
+		-I${hisitools}/usr/include \
+		-I${autefake}/usr/include -I${autefake}/usr/local/include \
+		" \
+	LDFLAGS=" \
+		-L${hisitools}/lib -L${hisitools}/usr/lib \
+		-L${auterelease}/lib -L${auterelease}/usr/lib -L${auterelease}/usr/local/lib \
+		" \
+./configure \
+	--host=${hisiprefix} \
+	--prefix=${auterelease}/usr \
+	--bindir=${auterelease}/bin \
+	--sbindir=${auterelease}/sbin \
+	--libexecdir=${auterelease}/lib \
+	--datadir=${auterelease}/usr/share \
+	--sysconfdir=/tmp/config/xinetd \
+	--localstatedir=${auterelease}/var \
+	--libdir=${auterelease}/lib \
+	\
+	--includedir=${autefake}/include \
+	--infodir=${autefake}/share/info \
+	--mandir=${autefake}/share/man \
+	\
+	--without-inet6 \
+	;
+

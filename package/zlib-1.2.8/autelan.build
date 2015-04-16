@@ -5,6 +5,5 @@ if [ -z "${hisitopdir}" ]; then export hisitopdir=$(pwd)/../..; fi
 
 package_common "$(pwd)"
 
-rm -f  ${auterelease}/usr/lib/libz.a
 rm -fr ${auterelease}/usr/lib/pkgconfig
 rm -fr ${auterelease}/usr/share/man

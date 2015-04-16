@@ -1,0 +1,10 @@
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating libs/src/misc/Makefile
+config.status: creating libs/src/pset/Makefile
+config.status: creating libs/src/sio/Makefile
+config.status: creating libs/src/str/Makefile
+config.status: creating libs/src/xlog/Makefile
+config.status: creating libs/src/portable/Makefile
+config.status: creating xinetd/Makefile
+config.status: creating config.h

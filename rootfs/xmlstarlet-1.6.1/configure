@@ -5435,6 +5435,7 @@ return ! realloc (0, 0);
   return 0;
 }
 _ACEOF
+autelan change
 if ac_fn_c_try_run "$LINENO"; then :
   ac_cv_func_realloc_0_nonnull=yes
 else
