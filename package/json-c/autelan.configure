@@ -3,6 +3,8 @@
 if [ -z "${hisitopdir}" ]; then export hisitopdir=$(pwd)/../..; fi
 . ${hisitopdir}/autelan_scripts/autelan.apps
 
+cp -f autelan/configure configure
+
 	CC=${hisiprefix}-gcc \
 	GCC=${hisiprefix}-gcc \
 	CXX=${hisiprefix}-g++ \
