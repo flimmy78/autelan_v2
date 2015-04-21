@@ -185,7 +185,7 @@ arm-hisiv200-linux-gcc -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/u
 ----------------------------------------
 checking for crypt()
 
-/tmp/ccOx60Hx.o: In function `main':
+/tmp/ccUmEoiV.o: In function `main':
 autotest.c:(.text+0xc): undefined reference to `crypt'
 collect2: ld returned 1 exit status
 ----------
@@ -293,7 +293,7 @@ checking for statvfs()
 ----------------------------------------
 checking for dlopen()
 
-/tmp/cc2tadJ5.o: In function `main':
+/tmp/cccikK2b.o: In function `main':
 autotest.c:(.text+0xc): undefined reference to `dlopen'
 collect2: ld returned 1 exit status
 ----------
@@ -402,7 +402,7 @@ checking for TCP_INFO
 ----------------------------------------
 checking for accept4()
 
-/tmp/cc8myAtj.o: In function `main':
+/tmp/ccyKiZ0H.o: In function `main':
 autotest.c:(.text+0x18): warning: warning: accept4 is not implemented and will always fail
 
 ----------------------------------------
@@ -472,7 +472,7 @@ checking for time_t size
 ----------------------------------------
 checking for setproctitle()
 
-/tmp/ccaqUlVA.o: In function `main':
+/tmp/ccILNuEc.o: In function `main':
 autotest.c:(.text+0x8): undefined reference to `setproctitle'
 collect2: ld returned 1 exit status
 ----------
@@ -501,7 +501,7 @@ checking for pwrite()
 ----------------------------------------
 checking for sys_nerr
 
-/tmp/ccewgZtN.o: In function `main':
+/tmp/ccYDrebq.o: In function `main':
 autotest.c:(.text+0x1c): warning: `sys_nerr' is deprecated; use `strerror' or `strerror_r' instead
 
 ----------------------------------------
@@ -533,7 +533,7 @@ checking for System V shared memory
 ----------------------------------------
 checking for POSIX semaphores
 
-/tmp/ccopSCZi.o: In function `main':
+/tmp/ccsUcNhI.o: In function `main':
 autotest.c:(.text+0x14): undefined reference to `sem_init'
 autotest.c:(.text+0x2c): undefined reference to `sem_destroy'
 collect2: ld returned 1 exit status

@@ -9,4 +9,5 @@ mkdir -p ${auterelease}/etc
 cp -f autelan/dnsmasq.conf.example ${auterelease}/etc
 
 rm -f ${hisirootfs}/etc/resolv.conf
+rm -fr ${auterelease}/usr/html
 
