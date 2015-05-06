@@ -13,8 +13,8 @@ SHLIB_MAJOR=1
 SHLIB_MINOR=0.0
 SHLIB_EXT=.so.$(SHLIB_MAJOR).$(SHLIB_MINOR)
 PLATFORM=linux-armv4
-OPTIONS=--prefix=/home/hisisdk/histb_v2/autelan/rootfs/openssl-1.0.2a/../../release/usr/local --cross-compile-prefix=arm-hisiv200-linux- enable-shared no-ec_nistp_64_gcc_128 no-gmp no-jpake no-krb5 no-libunbound no-md2 no-rc5 no-rfc3779 no-sctp no-ssl-trace no-store no-unit-test no-zlib no-zlib-dynamic no-static-engine
-CONFIGURE_ARGS=--prefix=/home/hisisdk/histb_v2/autelan/rootfs/openssl-1.0.2a/../../release/usr/local --cross-compile-prefix=arm-hisiv200-linux- shared linux-armv4
+OPTIONS=--prefix=/home/hisisdk/histb_v2/autelan/rootfs/openssl-1.0.2a/../../release/usr/local --cross-compile-prefix=arm-hisiv200-linux- enable-shared -march=armv7-a no-ec_nistp_64_gcc_128 no-gmp no-jpake no-krb5 no-libunbound no-md2 no-rc5 no-rfc3779 no-sctp no-ssl-trace no-store no-unit-test no-zlib no-zlib-dynamic no-static-engine
+CONFIGURE_ARGS=--prefix=/home/hisisdk/histb_v2/autelan/rootfs/openssl-1.0.2a/../../release/usr/local --cross-compile-prefix=arm-hisiv200-linux- shared linux-armv4 -march=armv7-a
 SHLIB_TARGET=linux-shared
 
 # HERE indicates where this Makefile lives.  This can be used to indicate
@@ -61,7 +61,7 @@ OPENSSLDIR=/home/hisisdk/histb_v2/autelan/rootfs/openssl-1.0.2a/../../release/us
 
 CROSS_COMPILE= arm-hisiv200-linux-
 CC= $(CROSS_COMPILE)gcc
-CFLAG= -fPIC -DOPENSSL_PIC -DOPENSSL_THREADS -D_REENTRANT -DDSO_DLFCN -DHAVE_DLFCN_H -O3 -Wall -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DAES_ASM -DBSAES_ASM -DGHASH_ASM
+CFLAG= -fPIC -DOPENSSL_PIC -DOPENSSL_THREADS -D_REENTRANT -DDSO_DLFCN -DHAVE_DLFCN_H -march=armv7-a -O3 -Wall -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DAES_ASM -DBSAES_ASM -DGHASH_ASM
 DEPFLAG= -DOPENSSL_NO_EC_NISTP_64_GCC_128 -DOPENSSL_NO_GMP -DOPENSSL_NO_JPAKE -DOPENSSL_NO_LIBUNBOUND -DOPENSSL_NO_MD2 -DOPENSSL_NO_RC5 -DOPENSSL_NO_RFC3779 -DOPENSSL_NO_SCTP -DOPENSSL_NO_SSL_TRACE -DOPENSSL_NO_STORE -DOPENSSL_NO_UNIT_TEST
 PEX_LIBS= 
 EX_LIBS= -ldl

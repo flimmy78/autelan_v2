@@ -16,6 +16,6 @@ if [ -z "${hisitopdir}" ]; then export hisitopdir=$(pwd)/../..; fi
 	--prefix=${auterelease}/usr/local \
 	--cross-compile-prefix=arm-hisiv200-linux- \
 	shared \
-	linux-armv4 \
+	linux-armv4 -march=armv7-a \
 	;
 
