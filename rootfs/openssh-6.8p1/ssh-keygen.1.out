@@ -638,7 +638,7 @@ option.
 Valid generator values are 2, 3, and 5.
 .Pp
 Screened DH groups may be installed in
-.Pa /home/hisisdk/histb_v2/autelan/rootfs/openssh-6.8p1/../../release/home/hisisdk/histb_v2/autelan/rootfs/openssh-6.8p1/../../release/etc/ssh/moduli .
+.Pa /tmp/config/ssh/moduli .
 It is important that this file contains moduli of a range of bit lengths and
 that both ends of a connection share common moduli.
 .Sh CERTIFICATES
@@ -837,7 +837,7 @@ on all machines
 where the user wishes to log in using public key authentication.
 There is no need to keep the contents of this file secret.
 .Pp
-.It Pa /home/hisisdk/histb_v2/autelan/rootfs/openssh-6.8p1/../../release/home/hisisdk/histb_v2/autelan/rootfs/openssh-6.8p1/../../release/etc/ssh/moduli
+.It Pa /tmp/config/ssh/moduli
 Contains Diffie-Hellman groups used for DH-GEX.
 The file format is described in
 .Xr moduli 5 .

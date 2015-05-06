@@ -42,7 +42,7 @@
 .Nd OpenSSH SSH client configuration files
 .Sh SYNOPSIS
 .Nm ~/.ssh/config
-.Nm /home/hisisdk/histb_v2/autelan/rootfs/openssh-6.8p1/../../release/etc/ssh/ssh_config
+.Nm /tmp/config/ssh/ssh_config
 .Sh DESCRIPTION
 .Xr ssh 1
 obtains configuration data from the following sources in
@@ -56,7 +56,7 @@ user's configuration file
 .Pq Pa ~/.ssh/config
 .It
 system-wide configuration file
-.Pq Pa /home/hisisdk/histb_v2/autelan/rootfs/openssh-6.8p1/../../release/etc/ssh/ssh_config
+.Pq Pa /tmp/config/ssh/ssh_config
 .El
 .Pp
 For each parameter, the first obtained value
@@ -602,7 +602,7 @@ Only the superuser can forward privileged ports.
 Setting this option to
 .Dq yes
 in the global client configuration file
-.Pa /home/hisisdk/histb_v2/autelan/rootfs/openssh-6.8p1/../../release/etc/ssh/ssh_config
+.Pa /tmp/config/ssh/ssh_config
 enables the use of the helper program
 .Xr ssh-keysign 8
 during
@@ -736,8 +736,8 @@ The default is
 Specifies one or more files to use for the global
 host key database, separated by whitespace.
 The default is
-.Pa /home/hisisdk/histb_v2/autelan/rootfs/openssh-6.8p1/../../release/etc/ssh/ssh_known_hosts ,
-.Pa /home/hisisdk/histb_v2/autelan/rootfs/openssh-6.8p1/../../release/etc/ssh/ssh_known_hosts2 .
+.Pa /tmp/config/ssh/ssh_known_hosts ,
+.Pa /tmp/config/ssh/ssh_known_hosts2 .
 .It Cm GSSAPIAuthentication
 Specifies whether user authentication based on GSSAPI is allowed.
 The default is
@@ -1423,7 +1423,7 @@ will never automatically add host keys to the
 file, and refuses to connect to hosts whose host key has changed.
 This provides maximum protection against trojan horse attacks,
 though it can be annoying when the
-.Pa /home/hisisdk/histb_v2/autelan/rootfs/openssh-6.8p1/../../release/etc/ssh/ssh_known_hosts
+.Pa /tmp/config/ssh/ssh_known_hosts
 file is poorly maintained or when connections to new hosts are
 frequently made.
 This option forces the user to manually
@@ -1649,7 +1649,7 @@ The format of this file is described above.
 This file is used by the SSH client.
 Because of the potential for abuse, this file must have strict permissions:
 read/write for the user, and not accessible by others.
-.It Pa /home/hisisdk/histb_v2/autelan/rootfs/openssh-6.8p1/../../release/etc/ssh/ssh_config
+.It Pa /tmp/config/ssh/ssh_config
 Systemwide configuration file.
 This file provides defaults for those
 values that are not specified in the user's configuration file, and

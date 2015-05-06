@@ -41,11 +41,11 @@
 .Nm sshd_config
 .Nd OpenSSH SSH daemon configuration file
 .Sh SYNOPSIS
-.Nm /home/hisisdk/histb_v2/autelan/rootfs/openssh-6.8p1/../../release/etc/ssh/sshd_config
+.Nm /tmp/config/ssh/sshd_config
 .Sh DESCRIPTION
 .Xr sshd 8
 reads configuration data from
-.Pa /home/hisisdk/histb_v2/autelan/rootfs/openssh-6.8p1/../../release/etc/ssh/sshd_config
+.Pa /tmp/config/ssh/sshd_config
 (or the file specified with
 .Fl f
 on the command line).
@@ -619,13 +619,13 @@ is not to load any certificates.
 Specifies a file containing a private host key
 used by SSH.
 The default is
-.Pa /home/hisisdk/histb_v2/autelan/rootfs/openssh-6.8p1/../../release/etc/ssh/ssh_host_key
+.Pa /tmp/config/ssh/ssh_host_key
 for protocol version 1, and
-.Pa /home/hisisdk/histb_v2/autelan/rootfs/openssh-6.8p1/../../release/etc/ssh/ssh_host_dsa_key ,
-.Pa /home/hisisdk/histb_v2/autelan/rootfs/openssh-6.8p1/../../release/etc/ssh/ssh_host_ecdsa_key ,
-.Pa /home/hisisdk/histb_v2/autelan/rootfs/openssh-6.8p1/../../release/etc/ssh/ssh_host_ed25519_key
+.Pa /tmp/config/ssh/ssh_host_dsa_key ,
+.Pa /tmp/config/ssh/ssh_host_ecdsa_key ,
+.Pa /tmp/config/ssh/ssh_host_ed25519_key
 and
-.Pa /home/hisisdk/histb_v2/autelan/rootfs/openssh-6.8p1/../../release/etc/ssh/ssh_host_rsa_key
+.Pa /tmp/config/ssh/ssh_host_rsa_key
 for protocol version 2.
 Note that
 .Xr sshd 8
@@ -663,7 +663,7 @@ or
 .Pp
 .Pa /etc/hosts.equiv
 and
-.Pa /home/hisisdk/histb_v2/autelan/rootfs/openssh-6.8p1/../../release/etc/ssh/shosts.equiv
+.Pa /tmp/config/ssh/shosts.equiv
 are still used.
 The default is
 .Dq yes .
@@ -1165,7 +1165,7 @@ The default is
 Specifies the file that contains the process ID of the
 SSH daemon.
 The default is
-.Pa /var/run/sshd.pid .
+.Pa /tmp/pid/ssh/sshd.pid .
 .It Cm Port
 Specifies the port number that
 .Xr sshd 8
@@ -1566,7 +1566,7 @@ Time format examples:
 .El
 .Sh FILES
 .Bl -tag -width Ds
-.It Pa /home/hisisdk/histb_v2/autelan/rootfs/openssh-6.8p1/../../release/etc/ssh/sshd_config
+.It Pa /tmp/config/ssh/sshd_config
 Contains configuration data for
 .Xr sshd 8 .
 This file should be writable by root only, but it is recommended

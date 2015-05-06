@@ -40,7 +40,7 @@ required during host-based authentication with SSH protocol version 2.
 .Nm
 is disabled by default and can only be enabled in the
 global client configuration file
-.Pa /home/hisisdk/histb_v2/autelan/rootfs/openssh-6.8p1/../../release/etc/ssh/ssh_config
+.Pa /tmp/config/ssh/ssh_config
 by setting
 .Cm EnableSSHKeysign
 to
@@ -56,15 +56,15 @@ and
 for more information about host-based authentication.
 .Sh FILES
 .Bl -tag -width Ds -compact
-.It Pa /home/hisisdk/histb_v2/autelan/rootfs/openssh-6.8p1/../../release/etc/ssh/ssh_config
+.It Pa /tmp/config/ssh/ssh_config
 Controls whether
 .Nm
 is enabled.
 .Pp
-.It Pa /home/hisisdk/histb_v2/autelan/rootfs/openssh-6.8p1/../../release/etc/ssh/ssh_host_dsa_key
-.It Pa /home/hisisdk/histb_v2/autelan/rootfs/openssh-6.8p1/../../release/etc/ssh/ssh_host_ecdsa_key
-.It Pa /home/hisisdk/histb_v2/autelan/rootfs/openssh-6.8p1/../../release/etc/ssh/ssh_host_ed25519_key
-.It Pa /home/hisisdk/histb_v2/autelan/rootfs/openssh-6.8p1/../../release/etc/ssh/ssh_host_rsa_key
+.It Pa /tmp/config/ssh/ssh_host_dsa_key
+.It Pa /tmp/config/ssh/ssh_host_ecdsa_key
+.It Pa /tmp/config/ssh/ssh_host_ed25519_key
+.It Pa /tmp/config/ssh/ssh_host_rsa_key
 These files contain the private parts of the host keys used to
 generate the digital signature.
 They should be owned by root, readable only by root, and not
@@ -73,10 +73,10 @@ Since they are readable only by root,
 .Nm
 must be set-uid root if host-based authentication is used.
 .Pp
-.It Pa /home/hisisdk/histb_v2/autelan/rootfs/openssh-6.8p1/../../release/etc/ssh/ssh_host_dsa_key-cert.pub
-.It Pa /home/hisisdk/histb_v2/autelan/rootfs/openssh-6.8p1/../../release/etc/ssh/ssh_host_ecdsa_key-cert.pub
-.It Pa /home/hisisdk/histb_v2/autelan/rootfs/openssh-6.8p1/../../release/etc/ssh/ssh_host_ed25519_key-cert.pub
-.It Pa /home/hisisdk/histb_v2/autelan/rootfs/openssh-6.8p1/../../release/etc/ssh/ssh_host_rsa_key-cert.pub
+.It Pa /tmp/config/ssh/ssh_host_dsa_key-cert.pub
+.It Pa /tmp/config/ssh/ssh_host_ecdsa_key-cert.pub
+.It Pa /tmp/config/ssh/ssh_host_ed25519_key-cert.pub
+.It Pa /tmp/config/ssh/ssh_host_rsa_key-cert.pub
 If these files exist they are assumed to contain public certificate
 information corresponding with the private keys above.
 .El

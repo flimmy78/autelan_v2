@@ -153,7 +153,7 @@ Write debug logs to standard error instead of the system log.
 .It Fl f Ar config_file
 Specifies the name of the configuration file.
 The default is
-.Pa /home/hisisdk/histb_v2/autelan/rootfs/openssh-6.8p1/../../release/etc/ssh/sshd_config .
+.Pa /tmp/config/ssh/sshd_config .
 .Nm
 refuses to start if there is no configuration file.
 .It Fl g Ar login_grace_time
@@ -169,13 +169,13 @@ This option must be given if
 is not run as root (as the normal
 host key files are normally not readable by anyone but root).
 The default is
-.Pa /home/hisisdk/histb_v2/autelan/rootfs/openssh-6.8p1/../../release/etc/ssh/ssh_host_key
+.Pa /tmp/config/ssh/ssh_host_key
 for protocol version 1, and
-.Pa /home/hisisdk/histb_v2/autelan/rootfs/openssh-6.8p1/../../release/etc/ssh/ssh_host_dsa_key ,
-.Pa /home/hisisdk/histb_v2/autelan/rootfs/openssh-6.8p1/../../release/etc/ssh/ssh_host_ecdsa_key .
-.Pa /home/hisisdk/histb_v2/autelan/rootfs/openssh-6.8p1/../../release/etc/ssh/ssh_host_ed25519_key
+.Pa /tmp/config/ssh/ssh_host_dsa_key ,
+.Pa /tmp/config/ssh/ssh_host_ecdsa_key .
+.Pa /tmp/config/ssh/ssh_host_ed25519_key
 and
-.Pa /home/hisisdk/histb_v2/autelan/rootfs/openssh-6.8p1/../../release/etc/ssh/ssh_host_rsa_key
+.Pa /tmp/config/ssh/ssh_host_rsa_key
 for protocol version 2.
 It is possible to have multiple host key files for
 the different protocol versions and host key algorithms.
@@ -412,7 +412,7 @@ exists and the
 .Xr sshd_config 5
 .Cm PermitUserRC
 option is set, runs it; else if
-.Pa /home/hisisdk/histb_v2/autelan/rootfs/openssh-6.8p1/../../release/etc/ssh/sshrc
+.Pa /tmp/config/ssh/sshrc
 exists, runs
 it; otherwise runs xauth.
 The
@@ -464,7 +464,7 @@ fi
 .Ed
 .Pp
 If this file does not exist,
-.Pa /home/hisisdk/histb_v2/autelan/rootfs/openssh-6.8p1/../../release/etc/ssh/sshrc
+.Pa /tmp/config/ssh/sshrc
 is run, and if that
 does not exist either, xauth is used to add the cookie.
 .Sh AUTHORIZED_KEYS FILE FORMAT
@@ -651,7 +651,7 @@ jane@example.net
 .Ed
 .Sh SSH_KNOWN_HOSTS FILE FORMAT
 The
-.Pa /home/hisisdk/histb_v2/autelan/rootfs/openssh-6.8p1/../../release/etc/ssh/ssh_known_hosts
+.Pa /tmp/config/ssh/ssh_known_hosts
 and
 .Pa ~/.ssh/known_hosts
 files contain host public keys for all known hosts.
@@ -704,7 +704,7 @@ negation or wildcard operators may be applied.
 .Pp
 Bits, exponent, and modulus are taken directly from the RSA host key; they
 can be obtained, for example, from
-.Pa /home/hisisdk/histb_v2/autelan/rootfs/openssh-6.8p1/../../release/etc/ssh/ssh_host_key.pub .
+.Pa /tmp/config/ssh/ssh_host_key.pub .
 The optional comment field continues to the end of the line, and is not used.
 .Pp
 Lines starting with
@@ -744,7 +744,7 @@ long, and you definitely don't want to type in the host keys by hand.
 Rather, generate them by a script,
 .Xr ssh-keyscan 1
 or by taking
-.Pa /home/hisisdk/histb_v2/autelan/rootfs/openssh-6.8p1/../../release/etc/ssh/ssh_host_key.pub
+.Pa /tmp/config/ssh/ssh_host_key.pub
 and adding the host names at the front.
 .Xr ssh-keygen 1
 also offers some basic automated editing for
@@ -856,7 +856,7 @@ This file is for host-based authentication (see
 .Xr ssh 1 ) .
 It should only be writable by root.
 .Pp
-.It Pa /home/hisisdk/histb_v2/autelan/rootfs/openssh-6.8p1/../../release/home/hisisdk/histb_v2/autelan/rootfs/openssh-6.8p1/../../release/etc/ssh/moduli
+.It Pa /tmp/config/ssh/moduli
 Contains Diffie-Hellman groups used for the "Diffie-Hellman Group Exchange".
 The file format is described in
 .Xr moduli 5 .
@@ -874,17 +874,17 @@ are displayed to anyone trying to log in, and non-root connections are
 refused.
 The file should be world-readable.
 .Pp
-.It Pa /home/hisisdk/histb_v2/autelan/rootfs/openssh-6.8p1/../../release/etc/ssh/shosts.equiv
+.It Pa /tmp/config/ssh/shosts.equiv
 This file is used in exactly the same way as
 .Pa hosts.equiv ,
 but allows host-based authentication without permitting login with
 rlogin/rsh.
 .Pp
-.It Pa /home/hisisdk/histb_v2/autelan/rootfs/openssh-6.8p1/../../release/etc/ssh/ssh_host_key
-.It Pa /home/hisisdk/histb_v2/autelan/rootfs/openssh-6.8p1/../../release/etc/ssh/ssh_host_dsa_key
-.It Pa /home/hisisdk/histb_v2/autelan/rootfs/openssh-6.8p1/../../release/etc/ssh/ssh_host_ecdsa_key
-.It Pa /home/hisisdk/histb_v2/autelan/rootfs/openssh-6.8p1/../../release/etc/ssh/ssh_host_ed25519_key
-.It Pa /home/hisisdk/histb_v2/autelan/rootfs/openssh-6.8p1/../../release/etc/ssh/ssh_host_rsa_key
+.It Pa /tmp/config/ssh/ssh_host_key
+.It Pa /tmp/config/ssh/ssh_host_dsa_key
+.It Pa /tmp/config/ssh/ssh_host_ecdsa_key
+.It Pa /tmp/config/ssh/ssh_host_ed25519_key
+.It Pa /tmp/config/ssh/ssh_host_rsa_key
 These files contain the private parts of the host keys.
 These files should only be owned by root, readable only by root, and not
 accessible to others.
@@ -892,11 +892,11 @@ Note that
 .Nm
 does not start if these files are group/world-accessible.
 .Pp
-.It Pa /home/hisisdk/histb_v2/autelan/rootfs/openssh-6.8p1/../../release/etc/ssh/ssh_host_key.pub
-.It Pa /home/hisisdk/histb_v2/autelan/rootfs/openssh-6.8p1/../../release/etc/ssh/ssh_host_dsa_key.pub
-.It Pa /home/hisisdk/histb_v2/autelan/rootfs/openssh-6.8p1/../../release/etc/ssh/ssh_host_ecdsa_key.pub
-.It Pa /home/hisisdk/histb_v2/autelan/rootfs/openssh-6.8p1/../../release/etc/ssh/ssh_host_ed25519_key.pub
-.It Pa /home/hisisdk/histb_v2/autelan/rootfs/openssh-6.8p1/../../release/etc/ssh/ssh_host_rsa_key.pub
+.It Pa /tmp/config/ssh/ssh_host_key.pub
+.It Pa /tmp/config/ssh/ssh_host_dsa_key.pub
+.It Pa /tmp/config/ssh/ssh_host_ecdsa_key.pub
+.It Pa /tmp/config/ssh/ssh_host_ed25519_key.pub
+.It Pa /tmp/config/ssh/ssh_host_rsa_key.pub
 These files contain the public parts of the host keys.
 These files should be world-readable but writable only by
 root.
@@ -907,7 +907,7 @@ the user so their contents can be copied to known hosts files.
 These files are created using
 .Xr ssh-keygen 1 .
 .Pp
-.It Pa /home/hisisdk/histb_v2/autelan/rootfs/openssh-6.8p1/../../release/etc/ssh/ssh_known_hosts
+.It Pa /tmp/config/ssh/ssh_known_hosts
 Systemwide list of known host keys.
 This file should be prepared by the
 system administrator to contain the public host keys of all machines in the
@@ -916,13 +916,13 @@ The format of this file is described above.
 This file should be writable only by root/the owner and
 should be world-readable.
 .Pp
-.It Pa /home/hisisdk/histb_v2/autelan/rootfs/openssh-6.8p1/../../release/etc/ssh/sshd_config
+.It Pa /tmp/config/ssh/sshd_config
 Contains configuration data for
 .Nm sshd .
 The file format and configuration options are described in
 .Xr sshd_config 5 .
 .Pp
-.It Pa /home/hisisdk/histb_v2/autelan/rootfs/openssh-6.8p1/../../release/etc/ssh/sshrc
+.It Pa /tmp/config/ssh/sshrc
 Similar to
 .Pa ~/.ssh/rc ,
 it can be used to specify
@@ -937,7 +937,7 @@ during privilege separation in the pre-authentication phase.
 The directory should not contain any files and must be owned by root
 and not group or world-writable.
 .Pp
-.It Pa /var/run/sshd.pid
+.It Pa /tmp/pid/ssh/sshd.pid
 Contains the process ID of the
 .Nm
 listening for connections (if there are several daemons running
