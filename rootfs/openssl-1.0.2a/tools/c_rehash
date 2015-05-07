@@ -4,7 +4,7 @@
 # and add symbolic links to their hash values.
 
 my $dir = "/home/hisisdk/histb_v2/autelan/rootfs/openssl-1.0.2a/../../release/usr/local/ssl";
-my $prefix = "/home/hisisdk/histb_v2/autelan/rootfs/openssl-1.0.2a/../../release/usr/local";
+my $prefix = "/home/hisisdk/histb_v2/autelan/rootfs/openssl-1.0.2a/../../release/usr/local/ssl";
 
 my $openssl = $ENV{OPENSSL} || "openssl";
 my $pwd;
