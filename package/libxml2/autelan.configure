@@ -3,6 +3,8 @@
 if [ -z "${hisitopdir}" ]; then export hisitopdir=$(pwd)/../..; fi
 . ${hisitopdir}/autelan_scripts/autelan.apps
 
+# autoreconf -f -i -Wall,no-obsolete
+
 	CC=${hisiprefix}-gcc \
 	GCC=${hisiprefix}-gcc \
 	CXX=${hisiprefix}-g++ \
@@ -36,9 +38,9 @@ if [ -z "${hisitopdir}" ]; then export hisitopdir=$(pwd)/../..; fi
 	--dvidir=${autefake}/usr/share/doc \
 	--pdfdir=${autefake}/usr/share/doc \
 	--psdir=${autefake}/usr/share/doc \
-	--without-zlib \
-	--with-lzma \
 	\
+	--without-zlib \
+	--without-lzma \
 	--disable-static \
 	--without-python \
 	;

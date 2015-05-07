@@ -5,16 +5,18 @@ if [ -z "${hisitopdir}" ]; then export hisitopdir=$(pwd)/../..; fi
 
 package_common "$(pwd)"
 
-rm -fr ${autefake}/usr/local/include
-mv ${auterelease}/usr/local/include ${autefake}/usr/local/include
-
 dir=${auterelease}/usr/local
+
+mkdir -p  ${autefake}/usr/local/include
+CP ${dir}/include/* ${autefake}/usr/local/include
+
+RM ${dir}/include
 RM ${dir}/lib/engines
 RM ${dir}/lib/pkgconfig
 RM ${dir}/ssl/man
 RM ${dir}/lib/libcrypto.a
 RM ${dir}/lib/libssl.a
-mv ${dir}/lib/libssl* ${auterelease}/usr/lib/
-mv ${dir}/lib/libcrypto* ${auterelease}/usr/lib/
+mv -f ${dir}/lib/libssl* ${auterelease}/usr/lib/
+mv -f ${dir}/lib/libcrypto* ${auterelease}/usr/lib/
 
 
