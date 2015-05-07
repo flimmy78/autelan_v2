@@ -13,8 +13,8 @@ SHLIB_MAJOR=1
 SHLIB_MINOR=0.0
 SHLIB_EXT=.so.$(SHLIB_MAJOR).$(SHLIB_MINOR)
 PLATFORM=linux-armv4
-OPTIONS=--prefix=/home/hisisdk/histb_v2/autelan/rootfs/openssl-1.0.2a/../../release/usr/local --install_prefix=/home/hisisdk/histb_v2/autelan/rootfs/openssl-1.0.2a/../../release/usr --cross-compile-prefix=arm-hisiv200-linux- enable-shared -march=armv7-a no-ec_nistp_64_gcc_128 no-gmp no-jpake no-krb5 no-libunbound no-md2 no-rc5 no-rfc3779 no-sctp no-ssl-trace no-store no-unit-test no-zlib no-zlib-dynamic no-static-engine
-CONFIGURE_ARGS=--prefix=/home/hisisdk/histb_v2/autelan/rootfs/openssl-1.0.2a/../../release/usr/local --install_prefix=/home/hisisdk/histb_v2/autelan/rootfs/openssl-1.0.2a/../../release/usr --cross-compile-prefix=arm-hisiv200-linux- shared linux-armv4 -march=armv7-a
+OPTIONS=--prefix=/home/hisisdk/histb_v2/autelan/rootfs/openssl-1.0.2a/../../release/usr/local --cross-compile-prefix=arm-hisiv200-linux- enable-shared -march=armv7-a no-ec_nistp_64_gcc_128 no-gmp no-jpake no-krb5 no-libunbound no-md2 no-rc5 no-rfc3779 no-sctp no-ssl-trace no-store no-unit-test no-zlib no-zlib-dynamic no-static-engine
+CONFIGURE_ARGS=--prefix=/home/hisisdk/histb_v2/autelan/rootfs/openssl-1.0.2a/../../release/usr/local --cross-compile-prefix=arm-hisiv200-linux- shared linux-armv4 -march=armv7-a
 SHLIB_TARGET=linux-shared
 
 # HERE indicates where this Makefile lives.  This can be used to indicate
@@ -25,7 +25,7 @@ HERE=.
 # INSTALL_PREFIX is for package builders so that they can configure
 # for, say, /usr/ and yet have everything installed to /tmp/somedir/usr/.
 # Normally it is left empty.
-INSTALL_PREFIX=/home/hisisdk/histb_v2/autelan/rootfs/openssl-1.0.2a/../../release/usr
+INSTALL_PREFIX=
 INSTALLTOP=/home/hisisdk/histb_v2/autelan/rootfs/openssl-1.0.2a/../../release/usr/local
 
 # Do not edit this manually. Use Configure --openssldir=DIR do change this!

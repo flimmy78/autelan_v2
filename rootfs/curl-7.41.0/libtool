@@ -167,7 +167,7 @@ lock_old_archive_extraction=no
 LTCC="arm-hisiv200-linux-gcc"
 
 # LTCC compiler flags.
-LTCFLAGS="-O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/curl-7.41.0/../../fakerelease/usr/include -isystem /home/hisisdk/histb_v2/autelan/rootfs/curl-7.41.0/../../fakerelease/usr/local/include -Wno-system-headers"
+LTCFLAGS="-O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -isystem /home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include -Wno-system-headers"
 
 # Take the output of nm and produce a listing of raw symbols and C names.
 global_symbol_pipe="sed -n -e 's/^.*[	 ]\\([ABCDGIRSTW][ABCDGIRSTW]*\\)[	 ][	 ]*\\([_A-Za-z][_A-Za-z0-9]*\\)\$/\\1 \\2 \\2/p' | sed '/ __gnu_lto/d'"

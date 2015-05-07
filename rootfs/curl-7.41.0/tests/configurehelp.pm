@@ -18,6 +18,6 @@ use vars qw(
     $Cpreprocessor
     );
 
-$Cpreprocessor = 'arm-hisiv200-linux-gcc -E -I/home/hisisdk/histb_v2/autelan/rootfs/curl-7.41.0/../../fakerelease/usr/local/ssl/include -I/home/hisisdk/histb_v2/autelan/rootfs/curl-7.41.0/../../fakerelease/usr/local/ssl/include/openssl';
+$Cpreprocessor = 'arm-hisiv200-linux-gcc -E -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/ssl/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/ssl/include/openssl';
 
 1;

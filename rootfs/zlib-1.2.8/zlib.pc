@@ -1,8 +1,8 @@
-prefix=/home/hisisdk/histb_v2/autelan/rootfs/zlib-1.2.8/../../release/usr
-exec_prefix=/home/hisisdk/histb_v2/autelan/rootfs/zlib-1.2.8/../../release/usr
-libdir=/home/hisisdk/histb_v2/autelan/rootfs/zlib-1.2.8/../../release/usr/lib
-sharedlibdir=/home/hisisdk/histb_v2/autelan/rootfs/zlib-1.2.8/../../release/usr/lib
-includedir=/home/hisisdk/histb_v2/autelan/rootfs/zlib-1.2.8/../../fakerelease/usr/include
+prefix=/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr
+exec_prefix=/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr
+libdir=/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib
+sharedlibdir=/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib
+includedir=/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include
 
 Name: zlib
 Description: zlib compression library

@@ -106,8 +106,8 @@ extern "C" {
 
 #if !(defined(VMS) || defined(__VMS)) /* VMS uses logical names instead */
 #if defined(HEADER_CRYPTLIB_H) && !defined(OPENSSLDIR)
-#define ENGINESDIR "/home/hisisdk/histb_v2/autelan/rootfs/openssl-1.0.2a/../../release/usr/local/ssl/lib/engines"
-#define OPENSSLDIR "/home/hisisdk/histb_v2/autelan/rootfs/openssl-1.0.2a/../../release/usr/local/ssl"
+#define ENGINESDIR "/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib/engines"
+#define OPENSSLDIR "/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/ssl"
 #endif
 #endif
 

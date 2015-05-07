@@ -1,0 +1,12 @@
+#!/bin/bash
+
+if [ -z "${hisitopdir}" ]; then export hisitopdir=$(pwd)/../..; fi
+. ${hisitopdir}/autelan_scripts/autelan.apps
+
+package_common "$(pwd)"
+
+RM ${auterelease}/usr/lib/liblzmadec.la
+
+pushd ${auterelease}/usr/lib/
+ln -sf liblzmadec.so.0.0.0 liblzma.so 
+popd

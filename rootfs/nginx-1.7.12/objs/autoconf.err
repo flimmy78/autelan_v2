@@ -5,7 +5,7 @@ checking for C compiler
 
 
 ----------------------------------------
-checking for --with-ld-opt=" 		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib 		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/lib 		-L/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/usr/lib 		-L/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/usr/local/lib 		"
+checking for --with-ld-opt=" 		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib 		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		"
 
 
 ----------------------------------------
@@ -98,7 +98,7 @@ int main() {
 }
 
 ----------
-arm-hisiv200-linux-gcc -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/local/include -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/local/include -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -o objs/autotest objs/autotest.c -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib -L/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/lib -L/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/usr/lib -L/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/usr/local/lib
+arm-hisiv200-linux-gcc -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -o objs/autotest objs/autotest.c -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib
 ----------
 
 ----------------------------------------
@@ -159,7 +159,7 @@ int main() {
 }
 
 ----------
-arm-hisiv200-linux-gcc -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/local/include -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/local/include -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -o objs/autotest objs/autotest.c -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib -L/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/lib -L/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/usr/lib -L/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/usr/local/lib
+arm-hisiv200-linux-gcc -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -o objs/autotest objs/autotest.c -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib
 ----------
 
 ----------------------------------------
@@ -179,13 +179,13 @@ int main() {
 }
 
 ----------
-arm-hisiv200-linux-gcc -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/local/include -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/local/include -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -o objs/autotest objs/autotest.c -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib -L/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/lib -L/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/usr/lib -L/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/usr/local/lib
+arm-hisiv200-linux-gcc -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -o objs/autotest objs/autotest.c -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib
 ----------
 
 ----------------------------------------
 checking for crypt()
 
-/tmp/ccUmEoiV.o: In function `main':
+/tmp/ccCqKDbd.o: In function `main':
 autotest.c:(.text+0xc): undefined reference to `crypt'
 collect2: ld returned 1 exit status
 ----------
@@ -200,7 +200,7 @@ int main() {
 }
 
 ----------
-arm-hisiv200-linux-gcc -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/local/include -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/local/include -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -o objs/autotest objs/autotest.c -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib -L/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/lib -L/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/usr/lib -L/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/usr/local/lib
+arm-hisiv200-linux-gcc -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -o objs/autotest objs/autotest.c -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib
 ----------
 
 ----------------------------------------
@@ -226,7 +226,7 @@ int main() {
 }
 
 ----------
-arm-hisiv200-linux-gcc -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/local/include -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/local/include -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -o objs/autotest objs/autotest.c -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib -L/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/lib -L/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/usr/lib -L/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/usr/local/lib
+arm-hisiv200-linux-gcc -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -o objs/autotest objs/autotest.c -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib
 ----------
 
 ----------------------------------------
@@ -256,7 +256,7 @@ int main() {
 }
 
 ----------
-arm-hisiv200-linux-gcc -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/local/include -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/local/include -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -o objs/autotest objs/autotest.c -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib -L/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/lib -L/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/usr/lib -L/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/usr/local/lib
+arm-hisiv200-linux-gcc -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -o objs/autotest objs/autotest.c -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib
 ----------
 
 ----------------------------------------
@@ -279,7 +279,7 @@ int main() {
 }
 
 ----------
-arm-hisiv200-linux-gcc -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/local/include -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/local/include -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -o objs/autotest objs/autotest.c -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib -L/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/lib -L/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/usr/lib -L/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/usr/local/lib
+arm-hisiv200-linux-gcc -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -o objs/autotest objs/autotest.c -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib
 ----------
 
 ----------------------------------------
@@ -293,7 +293,7 @@ checking for statvfs()
 ----------------------------------------
 checking for dlopen()
 
-/tmp/cccikK2b.o: In function `main':
+/tmp/ccCniGzJ.o: In function `main':
 autotest.c:(.text+0xc): undefined reference to `dlopen'
 collect2: ld returned 1 exit status
 ----------
@@ -308,7 +308,7 @@ int main() {
 }
 
 ----------
-arm-hisiv200-linux-gcc -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/local/include -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/local/include -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -o objs/autotest objs/autotest.c -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib -L/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/lib -L/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/usr/lib -L/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/usr/local/lib
+arm-hisiv200-linux-gcc -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -o objs/autotest objs/autotest.c -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib
 ----------
 
 ----------------------------------------
@@ -338,7 +338,7 @@ int main() {
 }
 
 ----------
-arm-hisiv200-linux-gcc -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/local/include -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/local/include -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -o objs/autotest objs/autotest.c -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib -L/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/lib -L/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/usr/lib -L/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/usr/local/lib
+arm-hisiv200-linux-gcc -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -o objs/autotest objs/autotest.c -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib
 ----------
 
 ----------------------------------------
@@ -360,7 +360,7 @@ int main() {
 }
 
 ----------
-arm-hisiv200-linux-gcc -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/local/include -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/local/include -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -o objs/autotest objs/autotest.c -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib -L/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/lib -L/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/usr/lib -L/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/usr/local/lib
+arm-hisiv200-linux-gcc -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -o objs/autotest objs/autotest.c -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib
 ----------
 
 ----------------------------------------
@@ -392,7 +392,7 @@ int main() {
 }
 
 ----------
-arm-hisiv200-linux-gcc -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/local/include -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/local/include -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -o objs/autotest objs/autotest.c -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib -L/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/lib -L/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/usr/lib -L/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/usr/local/lib
+arm-hisiv200-linux-gcc -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -o objs/autotest objs/autotest.c -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib
 ----------
 
 ----------------------------------------
@@ -402,7 +402,7 @@ checking for TCP_INFO
 ----------------------------------------
 checking for accept4()
 
-/tmp/ccyKiZ0H.o: In function `main':
+/tmp/ccsDISrg.o: In function `main':
 autotest.c:(.text+0x18): warning: warning: accept4 is not implemented and will always fail
 
 ----------------------------------------
@@ -472,7 +472,7 @@ checking for time_t size
 ----------------------------------------
 checking for setproctitle()
 
-/tmp/ccILNuEc.o: In function `main':
+/tmp/ccmf53vb.o: In function `main':
 autotest.c:(.text+0x8): undefined reference to `setproctitle'
 collect2: ld returned 1 exit status
 ----------
@@ -487,7 +487,7 @@ int main() {
 }
 
 ----------
-arm-hisiv200-linux-gcc -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/local/include -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/local/include -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -o objs/autotest objs/autotest.c -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib -L/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/lib -L/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/usr/lib -L/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/usr/local/lib
+arm-hisiv200-linux-gcc -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -o objs/autotest objs/autotest.c -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib
 ----------
 
 ----------------------------------------
@@ -501,7 +501,7 @@ checking for pwrite()
 ----------------------------------------
 checking for sys_nerr
 
-/tmp/ccYDrebq.o: In function `main':
+/tmp/ccYS1byq.o: In function `main':
 autotest.c:(.text+0x1c): warning: `sys_nerr' is deprecated; use `strerror' or `strerror_r' instead
 
 ----------------------------------------
@@ -533,7 +533,7 @@ checking for System V shared memory
 ----------------------------------------
 checking for POSIX semaphores
 
-/tmp/ccsUcNhI.o: In function `main':
+/tmp/cc8xq4jY.o: In function `main':
 autotest.c:(.text+0x14): undefined reference to `sem_init'
 autotest.c:(.text+0x2c): undefined reference to `sem_destroy'
 collect2: ld returned 1 exit status
@@ -551,7 +551,7 @@ int main() {
 }
 
 ----------
-arm-hisiv200-linux-gcc -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/local/include -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/local/include -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -o objs/autotest objs/autotest.c -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib -L/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/lib -L/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/usr/lib -L/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/usr/local/lib
+arm-hisiv200-linux-gcc -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -o objs/autotest objs/autotest.c -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib
 ----------
 
 ----------------------------------------
@@ -596,7 +596,7 @@ int main() {
 }
 
 ----------
-arm-hisiv200-linux-gcc -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/local/include -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/local/include -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -o objs/autotest objs/autotest.c -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib -L/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/lib -L/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/usr/lib -L/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/usr/local/lib
+arm-hisiv200-linux-gcc -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -o objs/autotest objs/autotest.c -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib
 ----------
 
 ----------------------------------------
@@ -632,7 +632,7 @@ int main() {
 }
 
 ----------
-arm-hisiv200-linux-gcc -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/local/include -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/local/include -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -o objs/autotest objs/autotest.c -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib -L/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/lib -L/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/usr/lib -L/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/usr/local/lib -lmd
+arm-hisiv200-linux-gcc -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -o objs/autotest objs/autotest.c -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib -lmd
 ----------
 
 ----------------------------------------
@@ -652,7 +652,7 @@ int main() {
 }
 
 ----------
-arm-hisiv200-linux-gcc -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/local/include -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/local/include -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -o objs/autotest objs/autotest.c -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib -L/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/lib -L/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/usr/lib -L/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/usr/local/lib -lmd5
+arm-hisiv200-linux-gcc -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -o objs/autotest objs/autotest.c -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib -lmd5
 ----------
 
 ----------------------------------------
@@ -676,7 +676,7 @@ int main() {
 }
 
 ----------
-arm-hisiv200-linux-gcc -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/local/include -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/local/include -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -o objs/autotest objs/autotest.c -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib -L/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/lib -L/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/usr/lib -L/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/usr/local/lib -lmd
+arm-hisiv200-linux-gcc -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -o objs/autotest objs/autotest.c -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib -lmd
 ----------
 
 ----------------------------------------
@@ -709,11 +709,11 @@ int main() {
 }
 
 ----------
-arm-hisiv200-linux-gcc -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/local/include -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/local/include -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -I /usr/include/libxml2 -o objs/autotest objs/autotest.c -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib -L/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/lib -L/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/usr/lib -L/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/usr/local/lib -lxml2 -lxslt
+arm-hisiv200-linux-gcc -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -I /usr/include/libxml2 -o objs/autotest objs/autotest.c -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib -lxml2 -lxslt
 ----------
 
 ----------------------------------------
-checking for libxslt in /home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/
+checking for libxslt in /home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/
 
 objs/autotest.c: In function 'main':
 objs/autotest.c:15: warning: assignment makes pointer from integer without a cast
@@ -722,7 +722,7 @@ objs/autotest.c:15: warning: assignment makes pointer from integer without a cas
 checking for libexslt
 
 In file included from objs/autotest.c:4:
-/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/include/libexslt/exslt.h:5: fatal error: libxml/tree.h: No such file or directory
+/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include/libexslt/exslt.h:5: fatal error: libxml/tree.h: No such file or directory
 compilation terminated.
 ----------
 
@@ -736,7 +736,7 @@ int main() {
 }
 
 ----------
-arm-hisiv200-linux-gcc -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/local/include -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/local/include -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -I /usr/include/libxml2 -o objs/autotest objs/autotest.c -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib -L/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/lib -L/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/usr/lib -L/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/usr/local/lib -lexslt
+arm-hisiv200-linux-gcc -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -I /usr/include/libxml2 -o objs/autotest objs/autotest.c -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib -lexslt
 ----------
 
 ----------------------------------------
@@ -744,7 +744,7 @@ checking for libexslt in /usr/local/
 
 cc1: warning: include location "/usr/local/include" is unsafe for cross-compilation
 In file included from objs/autotest.c:4:
-/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/include/libexslt/exslt.h:5: fatal error: libxml/tree.h: No such file or directory
+/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include/libexslt/exslt.h:5: fatal error: libxml/tree.h: No such file or directory
 compilation terminated.
 ----------
 
@@ -758,7 +758,7 @@ int main() {
 }
 
 ----------
-arm-hisiv200-linux-gcc -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/local/include -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/local/include -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -I /usr/local/include/libxml2 -I /usr/local/include -o objs/autotest objs/autotest.c -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib -L/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/lib -L/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/usr/lib -L/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/usr/local/lib -L/usr/local/lib -lexslt
+arm-hisiv200-linux-gcc -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -I /usr/local/include/libxml2 -I /usr/local/include -o objs/autotest objs/autotest.c -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib -L/usr/local/lib -lexslt
 ----------
 
 ----------------------------------------
@@ -766,7 +766,7 @@ checking for libexslt in /usr/pkg/
 
 cc1: warning: include location "/usr/local/include" is unsafe for cross-compilation
 In file included from objs/autotest.c:4:
-/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/include/libexslt/exslt.h:5: fatal error: libxml/tree.h: No such file or directory
+/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include/libexslt/exslt.h:5: fatal error: libxml/tree.h: No such file or directory
 compilation terminated.
 ----------
 
@@ -780,14 +780,14 @@ int main() {
 }
 
 ----------
-arm-hisiv200-linux-gcc -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/local/include -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/local/include -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -I /usr/pkg/include/libxml2 -I /usr/local/include -o objs/autotest objs/autotest.c -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib -L/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/lib -L/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/usr/lib -L/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/usr/local/lib -L/usr/pkg/lib -lexslt
+arm-hisiv200-linux-gcc -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -I /usr/pkg/include/libxml2 -I /usr/local/include -o objs/autotest objs/autotest.c -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib -L/usr/pkg/lib -lexslt
 ----------
 
 ----------------------------------------
 checking for libexslt in /opt/local/
 
 In file included from objs/autotest.c:4:
-/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/include/libexslt/exslt.h:5: fatal error: libxml/tree.h: No such file or directory
+/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include/libexslt/exslt.h:5: fatal error: libxml/tree.h: No such file or directory
 compilation terminated.
 ----------
 
@@ -801,5 +801,5 @@ int main() {
 }
 
 ----------
-arm-hisiv200-linux-gcc -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/local/include -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/local/include -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -I /opt/local/include/libxml2 -I /opt/local/include -o objs/autotest objs/autotest.c -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib -L/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/lib -L/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/usr/lib -L/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/usr/local/lib -L/opt/local/lib -lexslt
+arm-hisiv200-linux-gcc -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -I /opt/local/include/libxml2 -I /opt/local/include -o objs/autotest objs/autotest.c -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib -L/opt/local/lib -lexslt
 ----------
