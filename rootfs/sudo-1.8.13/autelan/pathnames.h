@@ -113,7 +113,7 @@
 #endif /* _PATH_SUDO_SENDMAIL */
 
 #ifndef _PATH_SUDO_NOEXEC
-# define _PATH_SUDO_NOEXEC "/home/hisisdk/histb_v2/autelan/rootfs/sudo-1.8.13/../../release/usr/lib/sudo/sudo_noexec.so"
+# define _PATH_SUDO_NOEXEC "/usr/lib/sudo/sudo_noexec.so"
 #endif /* _PATH_SUDO_NOEXEC */
 
 #ifndef _PATH_SUDO_ASKPASS
@@ -121,7 +121,7 @@
 #endif /* _PATH_SUDO_ASKPASS */
 
 #ifndef _PATH_SUDO_PLUGIN_DIR
-# define _PATH_SUDO_PLUGIN_DIR "/home/hisisdk/histb_v2/autelan/rootfs/sudo-1.8.13/../../release/usr/lib/sudo/"
+# define _PATH_SUDO_PLUGIN_DIR "/usr/lib/sudo/"
 #endif /* _PATH_SUDO_PLUGIN_DIR */
 
 #ifndef _PATH_VI

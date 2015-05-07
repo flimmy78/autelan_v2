@@ -20,7 +20,7 @@
 #### Start of system configuration section. ####
 
 srcdir = .
-docdir = /home/hisisdk/histb_v2/autelan/rootfs/sudo-1.8.13/../../fakerelease/usr/share/doc
+docdir = /home/hisisdk/histb_v2/autelan/fakerelease/usr/share/doc
 top_builddir = ..
 top_srcdir = ..
 
@@ -36,15 +36,15 @@ INSTALL = $(SHELL) $(top_srcdir)/install-sh -c
 INSTALL_OWNER = -o $(install_uid) -g $(install_gid)
 
 # Where to install things...
-prefix = /home/hisisdk/histb_v2/autelan/rootfs/sudo-1.8.13/../../release/usr
+prefix = /home/hisisdk/histb_v2/autelan/release/usr
 exec_prefix = $(prefix)
-bindir = /home/hisisdk/histb_v2/autelan/rootfs/sudo-1.8.13/../../release/usr/bin
-sbindir = /home/hisisdk/histb_v2/autelan/rootfs/sudo-1.8.13/../../release/usr/sbin
-sysconfdir = /home/hisisdk/histb_v2/autelan/rootfs/sudo-1.8.13/../../release/etc
-libexecdir = /home/hisisdk/histb_v2/autelan/rootfs/sudo-1.8.13/../../release/usr/lib
-datarootdir = /home/hisisdk/histb_v2/autelan/rootfs/sudo-1.8.13/../../fakerelease/usr/share
-localstatedir = /home/hisisdk/histb_v2/autelan/rootfs/sudo-1.8.13/../../release/var
-mandir = /home/hisisdk/histb_v2/autelan/rootfs/sudo-1.8.13/../../fakerelease/usr/share/man
+bindir = /home/hisisdk/histb_v2/autelan/release/usr/bin
+sbindir = /home/hisisdk/histb_v2/autelan/release/usr/sbin
+sysconfdir = /etc
+libexecdir = /usr/lib
+datarootdir = /home/hisisdk/histb_v2/autelan/fakerelease/usr/share
+localstatedir = /home/hisisdk/histb_v2/autelan/release/var
+mandir = /home/hisisdk/histb_v2/autelan/fakerelease/usr/share/man
 
 # Directory to copy man pages from
 mansrcdir = .

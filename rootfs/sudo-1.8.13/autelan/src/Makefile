@@ -65,13 +65,13 @@ prefix = /home/hisisdk/histb_v2/autelan/rootfs/sudo-1.8.13/../../release/usr
 exec_prefix = $(prefix)
 bindir = /home/hisisdk/histb_v2/autelan/rootfs/sudo-1.8.13/../../release/usr/bin
 sbindir = /home/hisisdk/histb_v2/autelan/rootfs/sudo-1.8.13/../../release/usr/sbin
-sysconfdir = /home/hisisdk/histb_v2/autelan/rootfs/sudo-1.8.13/../../release/etc
-libexecdir = /home/hisisdk/histb_v2/autelan/rootfs/sudo-1.8.13/../../release/usr/lib
+sysconfdir = /etc
+libexecdir = /usr/lib
 datarootdir = /home/hisisdk/histb_v2/autelan/rootfs/sudo-1.8.13/../../fakerelease/usr/share
 localedir = /home/hisisdk/histb_v2/autelan/rootfs/sudo-1.8.13/../../fakerelease/usr/share/local
 localstatedir = /home/hisisdk/histb_v2/autelan/rootfs/sudo-1.8.13/../../release/var
 noexecfile = sudo_noexec.so
-noexecdir = /home/hisisdk/histb_v2/autelan/rootfs/sudo-1.8.13/../../release/usr/lib/sudo
+noexecdir = /usr/lib/sudo
 
 # User and group ids the installed files should be "owned" by
 install_uid = 0
