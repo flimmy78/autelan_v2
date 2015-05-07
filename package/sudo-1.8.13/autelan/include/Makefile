@@ -34,8 +34,8 @@ prefix = /home/hisisdk/histb_v2/autelan/rootfs/sudo-1.8.13/../../release/usr
 exec_prefix = $(prefix)
 bindir = /home/hisisdk/histb_v2/autelan/rootfs/sudo-1.8.13/../../release/usr/bin
 sbindir = /home/hisisdk/histb_v2/autelan/rootfs/sudo-1.8.13/../../release/usr/sbin
-sysconfdir = /home/hisisdk/histb_v2/autelan/rootfs/sudo-1.8.13/../../release/etc
-libexecdir = /home/hisisdk/histb_v2/autelan/rootfs/sudo-1.8.13/../../release/usr/lib
+sysconfdir = /etc
+libexecdir = /usr/lib
 datarootdir = /home/hisisdk/histb_v2/autelan/rootfs/sudo-1.8.13/../../fakerelease/usr/share
 localstatedir = /home/hisisdk/histb_v2/autelan/rootfs/sudo-1.8.13/../../release/var
 

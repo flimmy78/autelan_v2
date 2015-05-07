@@ -84,8 +84,8 @@ prefix = /home/hisisdk/histb_v2/autelan/rootfs/sudo-1.8.13/../../release/usr
 exec_prefix = $(prefix)
 bindir = /home/hisisdk/histb_v2/autelan/rootfs/sudo-1.8.13/../../release/usr/bin
 sbindir = /home/hisisdk/histb_v2/autelan/rootfs/sudo-1.8.13/../../release/usr/sbin
-sysconfdir = /home/hisisdk/histb_v2/autelan/rootfs/sudo-1.8.13/../../release/etc
-libexecdir = /home/hisisdk/histb_v2/autelan/rootfs/sudo-1.8.13/../../release/usr/lib
+sysconfdir = /etc
+libexecdir = /usr/lib
 datarootdir = /home/hisisdk/histb_v2/autelan/rootfs/sudo-1.8.13/../../fakerelease/usr/share
 localedir = /home/hisisdk/histb_v2/autelan/rootfs/sudo-1.8.13/../../fakerelease/usr/share/local
 localstatedir = /home/hisisdk/histb_v2/autelan/rootfs/sudo-1.8.13/../../release/var
@@ -98,7 +98,7 @@ shlib_map = sudoers.map
 shlib_opt = sudoers.opt
 
 # Directory in which to install the sudoers plugin
-plugindir = /home/hisisdk/histb_v2/autelan/rootfs/sudo-1.8.13/../../release/usr/lib/sudo
+plugindir = /usr/lib/sudo
 
 # Directory in which to install the sudoers file
 sudoersdir = $(sysconfdir)

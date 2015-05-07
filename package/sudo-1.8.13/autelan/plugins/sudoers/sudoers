@@ -86,6 +86,6 @@ root ALL=(ALL) ALL
 # Defaults targetpw  # Ask for the password of the target user
 # ALL ALL=(ALL) ALL  # WARNING: only use this together with 'Defaults targetpw'
 
-## Read drop-in files from /home/hisisdk/histb_v2/autelan/rootfs/sudo-1.8.13/../../release/etc/sudoers.d
+## Read drop-in files from /etc/sudoers.d
 ## (the '#' here does not indicate a comment)
-#includedir /home/hisisdk/histb_v2/autelan/rootfs/sudo-1.8.13/../../release/etc/sudoers.d
+#includedir /etc/sudoers.d

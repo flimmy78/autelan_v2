@@ -21,7 +21,7 @@ top_srcdir=.
 
 DESTDIR=
 
-SSH_PROGRAM=/home/hisisdk/histb_v2/autelan/rootfs/openssh-6.8p1/../../release/usr/bin/ssh
+SSH_PROGRAM=/usr/bin/ssh
 ASKPASS_PROGRAM=$(libexecdir)/ssh-askpass
 SFTP_SERVER=$(libexecdir)/sftp-server
 SSH_KEYSIGN=$(libexecdir)/ssh-keysign
