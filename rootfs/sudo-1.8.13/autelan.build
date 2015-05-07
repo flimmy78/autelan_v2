@@ -11,4 +11,8 @@ mkdir -p ${auterelease}/usr/lib
 
 cp -f src/.libs/sudo ${auterelease}/usr/bin/
 cp -f lib/util/.libs/libsudo_util.so.0 ${auterelease}/usr/lib/
+cp -f plugins/sudoers/.libs/sudoers.so ${auterelease}/usr/lib/
+cp -f plugins/group_file/.libs/group_file.so ${auterelease}/usr/lib/
+cp -f plugins/system_group/.libs/system_group.so ${auterelease}/usr/lib/
+cp -f src/.libs/sudo_noexec.so ${auterelease}/usr/lib/
 
