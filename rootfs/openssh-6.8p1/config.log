@@ -5140,7 +5140,7 @@ configure:11806: checking compiler and flags for sanity
 configure:11809: WARNING: cross compiling: not checking compiler sanity
 configure:11870: checking for yp_match
 configure:11926: arm-hisiv200-linux-gcc -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -fno-strict-aliasing -D_FORTIFY_SOURCE=2 -ftrapv -fno-builtin-memset -fstack-protector-all   		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -fstack-protector-all conftest.c  >&5
-/tmp/ccYHKPZI.o: In function `main':
+/tmp/cc41IiVx.o: In function `main':
 conftest.c:(.text+0x14): undefined reference to `yp_match'
 collect2: ld returned 1 exit status
 configure:11932: $? = 1
@@ -5863,7 +5863,7 @@ configure:13824: checking for libutil.h
 configure:13832: result: no
 configure:13845: checking for library containing fmt_scaled
 configure:13886: arm-hisiv200-linux-gcc -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -fno-strict-aliasing -D_FORTIFY_SOURCE=2 -ftrapv -fno-builtin-memset -fstack-protector-all   		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -fstack-protector-all conftest.c -lz -lnsl  >&5
-/tmp/cccP0qwn.o: In function `main':
+/tmp/ccWv7hYg.o: In function `main':
 conftest.c:(.text+0x14): undefined reference to `fmt_scaled'
 collect2: ld returned 1 exit status
 configure:13892: $? = 1
@@ -5971,7 +5971,7 @@ configure: failed program was:
 |   return 0;
 | }
 configure:13886: arm-hisiv200-linux-gcc -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -fno-strict-aliasing -D_FORTIFY_SOURCE=2 -ftrapv -fno-builtin-memset -fstack-protector-all   		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -fstack-protector-all conftest.c -lutil  -lz -lnsl  >&5
-/tmp/ccY7g8to.o: In function `main':
+/tmp/ccU8CDOm.o: In function `main':
 conftest.c:(.text+0x14): undefined reference to `fmt_scaled'
 collect2: ld returned 1 exit status
 configure:13892: $? = 1
@@ -6188,7 +6188,7 @@ configure: failed program was:
 configure:13920: result: no
 configure:13928: checking for library containing scan_scaled
 configure:13969: arm-hisiv200-linux-gcc -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -fno-strict-aliasing -D_FORTIFY_SOURCE=2 -ftrapv -fno-builtin-memset -fstack-protector-all   		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -fstack-protector-all conftest.c -lz -lnsl  >&5
-/tmp/cc6DRTQw.o: In function `main':
+/tmp/cc6qFHvp.o: In function `main':
 conftest.c:(.text+0x14): undefined reference to `scan_scaled'
 collect2: ld returned 1 exit status
 configure:13975: $? = 1
@@ -6296,7 +6296,7 @@ configure: failed program was:
 |   return 0;
 | }
 configure:13969: arm-hisiv200-linux-gcc -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -fno-strict-aliasing -D_FORTIFY_SOURCE=2 -ftrapv -fno-builtin-memset -fstack-protector-all   		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -fstack-protector-all conftest.c -lutil  -lz -lnsl  >&5
-/tmp/cccJdU2x.o: In function `main':
+/tmp/ccexhwxv.o: In function `main':
 conftest.c:(.text+0x14): undefined reference to `scan_scaled'
 collect2: ld returned 1 exit status
 configure:13975: $? = 1
@@ -6513,7 +6513,7 @@ configure: failed program was:
 configure:14003: result: no
 configure:14011: checking for library containing login
 configure:14052: arm-hisiv200-linux-gcc -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -fno-strict-aliasing -D_FORTIFY_SOURCE=2 -ftrapv -fno-builtin-memset -fstack-protector-all   		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -fstack-protector-all conftest.c -lz -lnsl  >&5
-/tmp/ccmQSidG.o: In function `main':
+/tmp/cc0f0fiy.o: In function `main':
 conftest.c:(.text+0x14): undefined reference to `login'
 collect2: ld returned 1 exit status
 configure:14058: $? = 1
@@ -6641,7 +6641,7 @@ configure:14390: $? = 0
 configure:14418: result: none required
 configure:14436: checking for fmt_scaled
 configure:14492: arm-hisiv200-linux-gcc -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -fno-strict-aliasing -D_FORTIFY_SOURCE=2 -ftrapv -fno-builtin-memset -fstack-protector-all   		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -fstack-protector-all conftest.c -lutil -lz -lnsl  >&5
-/tmp/ccoQsJ4Z.o: In function `main':
+/tmp/cc6nQDAW.o: In function `main':
 conftest.c:(.text+0x14): undefined reference to `fmt_scaled'
 collect2: ld returned 1 exit status
 configure:14498: $? = 1
@@ -6774,7 +6774,7 @@ configure: failed program was:
 configure:14516: result: no
 configure:14436: checking for scan_scaled
 configure:14492: arm-hisiv200-linux-gcc -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -fno-strict-aliasing -D_FORTIFY_SOURCE=2 -ftrapv -fno-builtin-memset -fstack-protector-all   		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -fstack-protector-all conftest.c -lutil -lz -lnsl  >&5
-/tmp/ccYJy8v1.o: In function `main':
+/tmp/ccY4PoY0.o: In function `main':
 conftest.c:(.text+0x14): undefined reference to `scan_scaled'
 collect2: ld returned 1 exit status
 configure:14498: $? = 1
@@ -7188,7 +7188,7 @@ configure:16330: checking whether both -fPIE and -pie are supported
 configure:16334: result: yes
 configure:16566: checking for Blowfish_initstate
 configure:16622: arm-hisiv200-linux-gcc -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -fno-strict-aliasing -D_FORTIFY_SOURCE=2 -ftrapv -fno-builtin-memset -fstack-protector-all -fPIE   		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -fstack-protector-all -pie conftest.c -lutil -lz -lnsl  >&5
-/tmp/ccWQdQ4T.o: In function `main':
+/tmp/ccGZyCgZ.o: In function `main':
 conftest.c:(.text+0x20): undefined reference to `Blowfish_initstate'
 collect2: ld returned 1 exit status
 configure:16628: $? = 1
@@ -7331,7 +7331,7 @@ configure: failed program was:
 configure:16646: result: no
 configure:16566: checking for Blowfish_expandstate
 configure:16622: arm-hisiv200-linux-gcc -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -fno-strict-aliasing -D_FORTIFY_SOURCE=2 -ftrapv -fno-builtin-memset -fstack-protector-all -fPIE   		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -fstack-protector-all -pie conftest.c -lutil -lz -lnsl  >&5
-/tmp/ccoQOk0U.o: In function `main':
+/tmp/cceMW4h3.o: In function `main':
 conftest.c:(.text+0x20): undefined reference to `Blowfish_expandstate'
 collect2: ld returned 1 exit status
 configure:16628: $? = 1
@@ -7474,7 +7474,7 @@ configure: failed program was:
 configure:16646: result: no
 configure:16566: checking for Blowfish_expand0state
 configure:16622: arm-hisiv200-linux-gcc -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -fno-strict-aliasing -D_FORTIFY_SOURCE=2 -ftrapv -fno-builtin-memset -fstack-protector-all -fPIE   		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -fstack-protector-all -pie conftest.c -lutil -lz -lnsl  >&5
-/tmp/ccE968nZ.o: In function `main':
+/tmp/ccs0NHC7.o: In function `main':
 conftest.c:(.text+0x20): undefined reference to `Blowfish_expand0state'
 collect2: ld returned 1 exit status
 configure:16628: $? = 1
@@ -7617,7 +7617,7 @@ configure: failed program was:
 configure:16646: result: no
 configure:16566: checking for Blowfish_stream2word
 configure:16622: arm-hisiv200-linux-gcc -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -fno-strict-aliasing -D_FORTIFY_SOURCE=2 -ftrapv -fno-builtin-memset -fstack-protector-all -fPIE   		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -fstack-protector-all -pie conftest.c -lutil -lz -lnsl  >&5
-/tmp/ccoAtfV4.o: In function `main':
+/tmp/ccMxBfjd.o: In function `main':
 conftest.c:(.text+0x20): undefined reference to `Blowfish_stream2word'
 collect2: ld returned 1 exit status
 configure:16628: $? = 1
@@ -7764,7 +7764,7 @@ configure:16628: $? = 0
 configure:16646: result: yes
 configure:16566: checking for b64_ntop
 configure:16622: arm-hisiv200-linux-gcc -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -fno-strict-aliasing -D_FORTIFY_SOURCE=2 -ftrapv -fno-builtin-memset -fstack-protector-all -fPIE   		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -fstack-protector-all -pie conftest.c -lutil -lz -lnsl  >&5
-/tmp/cc4RIeae.o: In function `main':
+/tmp/ccy65Mpi.o: In function `main':
 conftest.c:(.text+0x20): undefined reference to `b64_ntop'
 collect2: ld returned 1 exit status
 configure:16628: $? = 1
@@ -7908,7 +7908,7 @@ configure: failed program was:
 configure:16646: result: no
 configure:16566: checking for __b64_ntop
 configure:16622: arm-hisiv200-linux-gcc -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -fno-strict-aliasing -D_FORTIFY_SOURCE=2 -ftrapv -fno-builtin-memset -fstack-protector-all -fPIE   		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -fstack-protector-all -pie conftest.c -lutil -lz -lnsl  >&5
-/tmp/ccQLfFCj.o: In function `main':
+/tmp/cccqT1Zm.o: In function `main':
 conftest.c:(.text+0x20): undefined reference to `__b64_ntop'
 collect2: ld returned 1 exit status
 configure:16628: $? = 1
@@ -8052,7 +8052,7 @@ configure: failed program was:
 configure:16646: result: no
 configure:16566: checking for b64_pton
 configure:16622: arm-hisiv200-linux-gcc -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -fno-strict-aliasing -D_FORTIFY_SOURCE=2 -ftrapv -fno-builtin-memset -fstack-protector-all -fPIE   		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -fstack-protector-all -pie conftest.c -lutil -lz -lnsl  >&5
-/tmp/ccsEm38n.o: In function `main':
+/tmp/ccmLLx3d.o: In function `main':
 conftest.c:(.text+0x20): undefined reference to `b64_pton'
 collect2: ld returned 1 exit status
 configure:16628: $? = 1
@@ -8196,7 +8196,7 @@ configure: failed program was:
 configure:16646: result: no
 configure:16566: checking for __b64_pton
 configure:16622: arm-hisiv200-linux-gcc -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -fno-strict-aliasing -D_FORTIFY_SOURCE=2 -ftrapv -fno-builtin-memset -fstack-protector-all -fPIE   		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -fstack-protector-all -pie conftest.c -lutil -lz -lnsl  >&5
-/tmp/cctsiHhm.o: In function `main':
+/tmp/cc2fj4Ei.o: In function `main':
 conftest.c:(.text+0x20): undefined reference to `__b64_pton'
 collect2: ld returned 1 exit status
 configure:16628: $? = 1
@@ -8345,7 +8345,7 @@ configure:16628: $? = 0
 configure:16646: result: yes
 configure:16566: checking for bcrypt_pbkdf
 configure:16622: arm-hisiv200-linux-gcc -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -fno-strict-aliasing -D_FORTIFY_SOURCE=2 -ftrapv -fno-builtin-memset -fstack-protector-all -fPIE   		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -fstack-protector-all -pie conftest.c -lutil -lz -lnsl  >&5
-/tmp/ccEUodLf.o: In function `main':
+/tmp/ccSknI0n.o: In function `main':
 conftest.c:(.text+0x20): undefined reference to `bcrypt_pbkdf'
 collect2: ld returned 1 exit status
 configure:16628: $? = 1
@@ -8490,7 +8490,7 @@ configure: failed program was:
 configure:16646: result: no
 configure:16566: checking for bindresvport_sa
 configure:16622: arm-hisiv200-linux-gcc -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -fno-strict-aliasing -D_FORTIFY_SOURCE=2 -ftrapv -fno-builtin-memset -fstack-protector-all -fPIE   		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -fstack-protector-all -pie conftest.c -lutil -lz -lnsl  >&5
-/tmp/cccNZ48j.o: In function `main':
+/tmp/cc8NUVOs.o: In function `main':
 conftest.c:(.text+0x20): undefined reference to `bindresvport_sa'
 collect2: ld returned 1 exit status
 configure:16628: $? = 1
@@ -8635,7 +8635,7 @@ configure: failed program was:
 configure:16646: result: no
 configure:16566: checking for blf_enc
 configure:16622: arm-hisiv200-linux-gcc -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -fno-strict-aliasing -D_FORTIFY_SOURCE=2 -ftrapv -fno-builtin-memset -fstack-protector-all -fPIE   		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -fstack-protector-all -pie conftest.c -lutil -lz -lnsl  >&5
-/tmp/cc0DHoHp.o: In function `main':
+/tmp/cckR59gx.o: In function `main':
 conftest.c:(.text+0x20): undefined reference to `blf_enc'
 collect2: ld returned 1 exit status
 configure:16628: $? = 1
@@ -8780,7 +8780,7 @@ configure: failed program was:
 configure:16646: result: no
 configure:16566: checking for cap_rights_limit
 configure:16622: arm-hisiv200-linux-gcc -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -fno-strict-aliasing -D_FORTIFY_SOURCE=2 -ftrapv -fno-builtin-memset -fstack-protector-all -fPIE   		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -fstack-protector-all -pie conftest.c -lutil -lz -lnsl  >&5
-/tmp/ccYbbR9t.o: In function `main':
+/tmp/ccSdB6CC.o: In function `main':
 conftest.c:(.text+0x20): undefined reference to `cap_rights_limit'
 collect2: ld returned 1 exit status
 configure:16628: $? = 1
@@ -8929,7 +8929,7 @@ configure:16628: $? = 0
 configure:16646: result: yes
 configure:16566: checking for closefrom
 configure:16622: arm-hisiv200-linux-gcc -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -fno-strict-aliasing -D_FORTIFY_SOURCE=2 -ftrapv -fno-builtin-memset -fstack-protector-all -fPIE   		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -fstack-protector-all -pie conftest.c -lutil -lz -lnsl  >&5
-/tmp/ccINHLBE.o: In function `main':
+/tmp/ccEWc1VL.o: In function `main':
 conftest.c:(.text+0x20): undefined reference to `closefrom'
 collect2: ld returned 1 exit status
 configure:16628: $? = 1
@@ -9083,7 +9083,7 @@ configure:16628: $? = 0
 configure:16646: result: yes
 configure:16566: checking for explicit_bzero
 configure:16622: arm-hisiv200-linux-gcc -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -fno-strict-aliasing -D_FORTIFY_SOURCE=2 -ftrapv -fno-builtin-memset -fstack-protector-all -fPIE   		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -fstack-protector-all -pie conftest.c -lutil -lz -lnsl  >&5
-/tmp/cc6oBeeT.o: In function `main':
+/tmp/cc0kXyGV.o: In function `main':
 conftest.c:(.text+0x20): undefined reference to `explicit_bzero'
 collect2: ld returned 1 exit status
 configure:16628: $? = 1
@@ -9275,7 +9275,7 @@ configure:16628: $? = 0
 configure:16646: result: yes
 configure:16566: checking for getpeereid
 configure:16622: arm-hisiv200-linux-gcc -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -fno-strict-aliasing -D_FORTIFY_SOURCE=2 -ftrapv -fno-builtin-memset -fstack-protector-all -fPIE   		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -fstack-protector-all -pie conftest.c -lutil -lz -lnsl  >&5
-/tmp/ccaPtWJH.o: In function `main':
+/tmp/ccaoSg4R.o: In function `main':
 conftest.c:(.text+0x20): undefined reference to `getpeereid'
 collect2: ld returned 1 exit status
 configure:16628: $? = 1
@@ -9434,7 +9434,7 @@ configure: failed program was:
 configure:16646: result: no
 configure:16566: checking for getpeerucred
 configure:16622: arm-hisiv200-linux-gcc -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -fno-strict-aliasing -D_FORTIFY_SOURCE=2 -ftrapv -fno-builtin-memset -fstack-protector-all -fPIE   		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -fstack-protector-all -pie conftest.c -lutil -lz -lnsl  >&5
-/tmp/ccemdiuN.o: In function `main':
+/tmp/cc4NjJsW.o: In function `main':
 conftest.c:(.text+0x20): undefined reference to `getpeerucred'
 collect2: ld returned 1 exit status
 configure:16628: $? = 1
@@ -9601,7 +9601,7 @@ configure:16628: $? = 0
 configure:16646: result: yes
 configure:16566: checking for _getpty
 configure:16622: arm-hisiv200-linux-gcc -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -fno-strict-aliasing -D_FORTIFY_SOURCE=2 -ftrapv -fno-builtin-memset -fstack-protector-all -fPIE   		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -fstack-protector-all -pie conftest.c -lutil -lz -lnsl  >&5
-/tmp/ccCrkSK2.o: In function `main':
+/tmp/cckH5Gub.o: In function `main':
 conftest.c:(.text+0x20): undefined reference to `_getpty'
 collect2: ld returned 1 exit status
 configure:16628: $? = 1
@@ -9774,7 +9774,7 @@ configure:16628: $? = 0
 configure:16646: result: yes
 configure:16566: checking for group_from_gid
 configure:16622: arm-hisiv200-linux-gcc -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -fno-strict-aliasing -D_FORTIFY_SOURCE=2 -ftrapv -fno-builtin-memset -fstack-protector-all -fPIE   		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -fstack-protector-all -pie conftest.c -lutil -lz -lnsl  >&5
-/tmp/cc0l9uEh.o: In function `main':
+/tmp/cckDEmPu.o: In function `main':
 conftest.c:(.text+0x20): undefined reference to `group_from_gid'
 collect2: ld returned 1 exit status
 configure:16628: $? = 1
@@ -9954,7 +9954,7 @@ configure:16628: $? = 0
 configure:16646: result: yes
 configure:16566: checking for login_getcapbool
 configure:16622: arm-hisiv200-linux-gcc -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -fno-strict-aliasing -D_FORTIFY_SOURCE=2 -ftrapv -fno-builtin-memset -fstack-protector-all -fPIE   		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -fstack-protector-all -pie conftest.c -lutil -lz -lnsl  >&5
-/tmp/cc6EBsxj.o: In function `main':
+/tmp/cc4C3sUu.o: In function `main':
 conftest.c:(.text+0x20): undefined reference to `login_getcapbool'
 collect2: ld returned 1 exit status
 configure:16628: $? = 1
@@ -10126,7 +10126,7 @@ configure:16628: $? = 0
 configure:16646: result: yes
 configure:16566: checking for md5_crypt
 configure:16622: arm-hisiv200-linux-gcc -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -fno-strict-aliasing -D_FORTIFY_SOURCE=2 -ftrapv -fno-builtin-memset -fstack-protector-all -fPIE   		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -fstack-protector-all -pie conftest.c -lutil -lz -lnsl  >&5
-/tmp/ccC78fmp.o: In function `main':
+/tmp/cceyFa7E.o: In function `main':
 conftest.c:(.text+0x20): undefined reference to `md5_crypt'
 collect2: ld returned 1 exit status
 configure:16628: $? = 1
@@ -10300,7 +10300,7 @@ configure:16628: $? = 0
 configure:16646: result: yes
 configure:16566: checking for memset_s
 configure:16622: arm-hisiv200-linux-gcc -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -fno-strict-aliasing -D_FORTIFY_SOURCE=2 -ftrapv -fno-builtin-memset -fstack-protector-all -fPIE   		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -fstack-protector-all -pie conftest.c -lutil -lz -lnsl  >&5
-/tmp/ccEgGmRy.o: In function `main':
+/tmp/ccwhTxYO.o: In function `main':
 conftest.c:(.text+0x20): undefined reference to `memset_s'
 collect2: ld returned 1 exit status
 configure:16628: $? = 1
@@ -10478,7 +10478,7 @@ configure:16628: $? = 0
 configure:16646: result: yes
 configure:16566: checking for ngetaddrinfo
 configure:16622: arm-hisiv200-linux-gcc -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -fno-strict-aliasing -D_FORTIFY_SOURCE=2 -ftrapv -fno-builtin-memset -fstack-protector-all -fPIE   		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -fstack-protector-all -pie conftest.c -lutil -lz -lnsl  >&5
-/tmp/cca0iQ4N.o: In function `main':
+/tmp/ccKNOHU2.o: In function `main':
 conftest.c:(.text+0x20): undefined reference to `ngetaddrinfo'
 collect2: ld returned 1 exit status
 configure:16628: $? = 1
@@ -10650,7 +10650,7 @@ configure: failed program was:
 configure:16646: result: no
 configure:16566: checking for nsleep
 configure:16622: arm-hisiv200-linux-gcc -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -fno-strict-aliasing -D_FORTIFY_SOURCE=2 -ftrapv -fno-builtin-memset -fstack-protector-all -fPIE   		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -fstack-protector-all -pie conftest.c -lutil -lz -lnsl  >&5
-/tmp/cc4pq2zT.o: In function `main':
+/tmp/ccuQdqn8.o: In function `main':
 conftest.c:(.text+0x20): undefined reference to `nsleep'
 collect2: ld returned 1 exit status
 configure:16628: $? = 1
@@ -10822,7 +10822,7 @@ configure: failed program was:
 configure:16646: result: no
 configure:16566: checking for ogetaddrinfo
 configure:16622: arm-hisiv200-linux-gcc -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -fno-strict-aliasing -D_FORTIFY_SOURCE=2 -ftrapv -fno-builtin-memset -fstack-protector-all -fPIE   		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -fstack-protector-all -pie conftest.c -lutil -lz -lnsl  >&5
-/tmp/ccuO8MZY.o: In function `main':
+/tmp/ccg4xBDc.o: In function `main':
 conftest.c:(.text+0x20): undefined reference to `ogetaddrinfo'
 collect2: ld returned 1 exit status
 configure:16628: $? = 1
@@ -10994,7 +10994,7 @@ configure: failed program was:
 configure:16646: result: no
 configure:16566: checking for openlog_r
 configure:16622: arm-hisiv200-linux-gcc -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -fno-strict-aliasing -D_FORTIFY_SOURCE=2 -ftrapv -fno-builtin-memset -fstack-protector-all -fPIE   		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -fstack-protector-all -pie conftest.c -lutil -lz -lnsl  >&5
-/tmp/ccGj66yZ.o: In function `main':
+/tmp/ccqq0jwd.o: In function `main':
 conftest.c:(.text+0x20): undefined reference to `openlog_r'
 collect2: ld returned 1 exit status
 configure:16628: $? = 1
@@ -11172,7 +11172,7 @@ configure:16566: checking for prctl
 configure:16646: result: yes
 configure:16566: checking for pstat
 configure:16622: arm-hisiv200-linux-gcc -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -fno-strict-aliasing -D_FORTIFY_SOURCE=2 -ftrapv -fno-builtin-memset -fstack-protector-all -fPIE   		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -fstack-protector-all -pie conftest.c -lutil -lz -lnsl  >&5
-/tmp/ccwh9o08.o: In function `main':
+/tmp/ccmzazRq.o: In function `main':
 conftest.c:(.text+0x20): undefined reference to `pstat'
 collect2: ld returned 1 exit status
 configure:16628: $? = 1
@@ -11346,7 +11346,7 @@ configure: failed program was:
 configure:16646: result: no
 configure:16566: checking for readpassphrase
 configure:16622: arm-hisiv200-linux-gcc -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -fno-strict-aliasing -D_FORTIFY_SOURCE=2 -ftrapv -fno-builtin-memset -fstack-protector-all -fPIE   		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -fstack-protector-all -pie conftest.c -lutil -lz -lnsl  >&5
-/tmp/ccU4yk7d.o: In function `main':
+/tmp/ccq841Ir.o: In function `main':
 conftest.c:(.text+0x20): undefined reference to `readpassphrase'
 collect2: ld returned 1 exit status
 configure:16628: $? = 1
@@ -11520,7 +11520,7 @@ configure: failed program was:
 configure:16646: result: no
 configure:16566: checking for reallocarray
 configure:16622: arm-hisiv200-linux-gcc -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -fno-strict-aliasing -D_FORTIFY_SOURCE=2 -ftrapv -fno-builtin-memset -fstack-protector-all -fPIE   		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -fstack-protector-all -pie conftest.c -lutil -lz -lnsl  >&5
-/tmp/ccmCBHzf.o: In function `main':
+/tmp/ccSBaL8v.o: In function `main':
 conftest.c:(.text+0x20): undefined reference to `reallocarray'
 collect2: ld returned 1 exit status
 configure:16628: $? = 1
@@ -11710,7 +11710,7 @@ configure:16628: $? = 0
 configure:16646: result: yes
 configure:16566: checking for setdtablesize
 configure:16622: arm-hisiv200-linux-gcc -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -fno-strict-aliasing -D_FORTIFY_SOURCE=2 -ftrapv -fno-builtin-memset -fstack-protector-all -fPIE   		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -fstack-protector-all -pie conftest.c -lutil -lz -lnsl  >&5
-/tmp/ccgKtVdD.o: In function `main':
+/tmp/ccuUFSjQ.o: In function `main':
 conftest.c:(.text+0x20): undefined reference to `setdtablesize'
 collect2: ld returned 1 exit status
 configure:16628: $? = 1
@@ -11900,7 +11900,7 @@ configure:16628: $? = 0
 configure:16646: result: yes
 configure:16566: checking for setgroupent
 configure:16622: arm-hisiv200-linux-gcc -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -fno-strict-aliasing -D_FORTIFY_SOURCE=2 -ftrapv -fno-builtin-memset -fstack-protector-all -fPIE   		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -fstack-protector-all -pie conftest.c -lutil -lz -lnsl  >&5
-/tmp/ccWNgF3X.o: In function `main':
+/tmp/ccyCXEQ8.o: In function `main':
 conftest.c:(.text+0x20): undefined reference to `setgroupent'
 collect2: ld returned 1 exit status
 configure:16628: $? = 1
@@ -12270,7 +12270,7 @@ configure: failed program was:
 configure:16646: result: no
 configure:16566: checking for setpassent
 configure:16622: arm-hisiv200-linux-gcc -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -fno-strict-aliasing -D_FORTIFY_SOURCE=2 -ftrapv -fno-builtin-memset -fstack-protector-all -fPIE   		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -fstack-protector-all -pie conftest.c -lutil -lz -lnsl  >&5
-/tmp/ccKKhFza.o: In function `main':
+/tmp/cc4b25vq.o: In function `main':
 conftest.c:(.text+0x20): undefined reference to `setpassent'
 collect2: ld returned 1 exit status
 configure:16628: $? = 1
@@ -12453,7 +12453,7 @@ configure: failed program was:
 configure:16646: result: no
 configure:16566: checking for setpcred
 configure:16622: arm-hisiv200-linux-gcc -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -fno-strict-aliasing -D_FORTIFY_SOURCE=2 -ftrapv -fno-builtin-memset -fstack-protector-all -fPIE   		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -fstack-protector-all -pie conftest.c -lutil -lz -lnsl  >&5
-/tmp/ccUK5dPf.o: In function `main':
+/tmp/ccqDSkVc.o: In function `main':
 conftest.c:(.text+0x20): undefined reference to `setpcred'
 collect2: ld returned 1 exit status
 configure:16628: $? = 1
@@ -12636,7 +12636,7 @@ configure: failed program was:
 configure:16646: result: no
 configure:16566: checking for setproctitle
 configure:16622: arm-hisiv200-linux-gcc -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -fno-strict-aliasing -D_FORTIFY_SOURCE=2 -ftrapv -fno-builtin-memset -fstack-protector-all -fPIE   		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -fstack-protector-all -pie conftest.c -lutil -lz -lnsl  >&5
-/tmp/cc2F3Vel.o: In function `main':
+/tmp/ccCIMWgh.o: In function `main':
 conftest.c:(.text+0x20): undefined reference to `setproctitle'
 collect2: ld returned 1 exit status
 configure:16628: $? = 1
@@ -12873,7 +12873,7 @@ configure:16628: $? = 0
 configure:16646: result: yes
 configure:16566: checking for strlcat
 configure:16622: arm-hisiv200-linux-gcc -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -fno-strict-aliasing -D_FORTIFY_SOURCE=2 -ftrapv -fno-builtin-memset -fstack-protector-all -fPIE   		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -fstack-protector-all -pie conftest.c -lutil -lz -lnsl  >&5
-/tmp/ccW5QvfW.o: In function `main':
+/tmp/ccUJNZVh.o: In function `main':
 conftest.c:(.text+0x20): undefined reference to `strlcat'
 collect2: ld returned 1 exit status
 configure:16628: $? = 1
@@ -13069,7 +13069,7 @@ configure: failed program was:
 configure:16646: result: no
 configure:16566: checking for strlcpy
 configure:16622: arm-hisiv200-linux-gcc -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -fno-strict-aliasing -D_FORTIFY_SOURCE=2 -ftrapv -fno-builtin-memset -fstack-protector-all -fPIE   		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -fstack-protector-all -pie conftest.c -lutil -lz -lnsl  >&5
-/tmp/ccgFXyB1.o: In function `main':
+/tmp/ccUCGptn.o: In function `main':
 conftest.c:(.text+0x20): undefined reference to `strlcpy'
 collect2: ld returned 1 exit status
 configure:16628: $? = 1
@@ -13265,7 +13265,7 @@ configure: failed program was:
 configure:16646: result: no
 configure:16566: checking for strmode
 configure:16622: arm-hisiv200-linux-gcc -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -fno-strict-aliasing -D_FORTIFY_SOURCE=2 -ftrapv -fno-builtin-memset -fstack-protector-all -fPIE   		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -fstack-protector-all -pie conftest.c -lutil -lz -lnsl  >&5
-/tmp/cc0VVmc7.o: In function `main':
+/tmp/ccUZY7Wr.o: In function `main':
 conftest.c:(.text+0x20): undefined reference to `strmode'
 collect2: ld returned 1 exit status
 configure:16628: $? = 1
@@ -13465,7 +13465,7 @@ configure:16628: $? = 0
 configure:16646: result: yes
 configure:16566: checking for strnvis
 configure:16622: arm-hisiv200-linux-gcc -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -fno-strict-aliasing -D_FORTIFY_SOURCE=2 -ftrapv -fno-builtin-memset -fstack-protector-all -fPIE   		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -fstack-protector-all -pie conftest.c -lutil -lz -lnsl  >&5
-/tmp/ccqTmbNg.o: In function `main':
+/tmp/ccgzAwrx.o: In function `main':
 conftest.c:(.text+0x20): undefined reference to `strnvis'
 collect2: ld returned 1 exit status
 configure:16628: $? = 1
@@ -13666,7 +13666,7 @@ configure:16628: $? = 0
 configure:16646: result: yes
 configure:16566: checking for strtonum
 configure:16622: arm-hisiv200-linux-gcc -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -fno-strict-aliasing -D_FORTIFY_SOURCE=2 -ftrapv -fno-builtin-memset -fstack-protector-all -fPIE   		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -fstack-protector-all -pie conftest.c -lutil -lz -lnsl  >&5
-/tmp/ccIW2i7p.o: In function `main':
+/tmp/ccCGl1JG.o: In function `main':
 conftest.c:(.text+0x20): undefined reference to `strtonum'
 collect2: ld returned 1 exit status
 configure:16628: $? = 1
@@ -13876,7 +13876,7 @@ configure:16628: $? = 0
 configure:16646: result: yes
 configure:16566: checking for swap32
 configure:16622: arm-hisiv200-linux-gcc -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -fno-strict-aliasing -D_FORTIFY_SOURCE=2 -ftrapv -fno-builtin-memset -fstack-protector-all -fPIE   		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -fstack-protector-all -pie conftest.c -lutil -lz -lnsl  >&5
-/tmp/cc49hcjC.o: In function `main':
+/tmp/cckZDJ2Z.o: In function `main':
 conftest.c:(.text+0x20): undefined reference to `swap32'
 collect2: ld returned 1 exit status
 configure:16628: $? = 1
@@ -14085,7 +14085,7 @@ configure:16628: $? = 0
 configure:16646: result: yes
 configure:16566: checking for timingsafe_bcmp
 configure:16622: arm-hisiv200-linux-gcc -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -fno-strict-aliasing -D_FORTIFY_SOURCE=2 -ftrapv -fno-builtin-memset -fstack-protector-all -fPIE   		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -fstack-protector-all -pie conftest.c -lutil -lz -lnsl  >&5
-/tmp/ccyGfUAR.o: In function `main':
+/tmp/ccE63f5e.o: In function `main':
 conftest.c:(.text+0x20): undefined reference to `timingsafe_bcmp'
 collect2: ld returned 1 exit status
 configure:16628: $? = 1
@@ -14300,7 +14300,7 @@ configure:16628: $? = 0
 configure:16646: result: yes
 configure:16566: checking for user_from_uid
 configure:16622: arm-hisiv200-linux-gcc -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -fno-strict-aliasing -D_FORTIFY_SOURCE=2 -ftrapv -fno-builtin-memset -fstack-protector-all -fPIE   		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -fstack-protector-all -pie conftest.c -lutil -lz -lnsl  >&5
-/tmp/cc23nk8a.o: In function `main':
+/tmp/cc4gbD9a.o: In function `main':
 conftest.c:(.text+0x20): undefined reference to `user_from_uid'
 collect2: ld returned 1 exit status
 configure:16628: $? = 1
@@ -14525,7 +14525,7 @@ configure:16678: arm-hisiv200-linux-gcc -o conftest  		-O2 		-I/opt/hisi-linux/x
 configure:16684: $? = 0
 configure:16709: checking for library containing dlopen
 configure:16750: arm-hisiv200-linux-gcc -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -fno-strict-aliasing -D_FORTIFY_SOURCE=2 -ftrapv -fno-builtin-memset -fstack-protector-all -fPIE   		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -fstack-protector-all -pie conftest.c -lutil -lz -lnsl  >&5
-/tmp/ccOhnuMi.o: In function `main':
+/tmp/cccnYDdE.o: In function `main':
 conftest.c:(.text+0x20): undefined reference to `dlopen'
 collect2: ld returned 1 exit status
 configure:16756: $? = 1
@@ -14727,7 +14727,7 @@ configure:17001: $? = 0
 configure:17029: result: none required
 configure:17042: checking for library containing clock_gettime
 configure:17083: arm-hisiv200-linux-gcc -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -fno-strict-aliasing -D_FORTIFY_SOURCE=2 -ftrapv -fno-builtin-memset -fstack-protector-all -fPIE   		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -fstack-protector-all -pie conftest.c -ldl -lutil -lz -lnsl  >&5
-/tmp/cck5ZmlB.o: In function `main':
+/tmp/ccMiVIGW.o: In function `main':
 conftest.c:(.text+0x20): undefined reference to `clock_gettime'
 collect2: ld returned 1 exit status
 configure:17089: $? = 1
@@ -15257,7 +15257,7 @@ configure:18968: $? = 0
 configure:18986: result: yes
 configure:18906: checking for getutxuser
 configure:18962: arm-hisiv200-linux-gcc -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -fno-strict-aliasing -D_FORTIFY_SOURCE=2 -ftrapv -fno-builtin-memset -fstack-protector-all -fPIE   		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -fstack-protector-all -pie conftest.c -lrt -ldl -lutil -lz -lnsl  >&5
-/tmp/cc6BP2Fn.o: In function `main':
+/tmp/ccyhM4Hy.o: In function `main':
 conftest.c:(.text+0x20): undefined reference to `getutxuser'
 collect2: ld returned 1 exit status
 configure:18968: $? = 1
@@ -15504,7 +15504,7 @@ configure:18968: $? = 0
 configure:18986: result: yes
 configure:19002: checking for setutxdb
 configure:19058: arm-hisiv200-linux-gcc -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -fno-strict-aliasing -D_FORTIFY_SOURCE=2 -ftrapv -fno-builtin-memset -fstack-protector-all -fPIE   		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -fstack-protector-all -pie conftest.c -lrt -ldl -lutil -lz -lnsl  >&5
-/tmp/ccS18tGe.o: In function `main':
+/tmp/ccWXMB6H.o: In function `main':
 conftest.c:(.text+0x20): undefined reference to `setutxdb'
 collect2: ld returned 1 exit status
 configure:19064: $? = 1
@@ -15756,7 +15756,7 @@ configure:19064: $? = 0
 configure:19082: result: yes
 configure:19096: checking for getlastlogxbyname
 configure:19152: arm-hisiv200-linux-gcc -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -fno-strict-aliasing -D_FORTIFY_SOURCE=2 -ftrapv -fno-builtin-memset -fstack-protector-all -fPIE   		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -fstack-protector-all -pie conftest.c -lrt -ldl -lutil -lz -lnsl  >&5
-/tmp/cciKNvgt.o: In function `main':
+/tmp/ccAqrk6V.o: In function `main':
 conftest.c:(.text+0x20): undefined reference to `getlastlogxbyname'
 collect2: ld returned 1 exit status
 configure:19158: $? = 1
@@ -16406,7 +16406,7 @@ configure:22281: checking if OpenSSL's NID_secp521r1 is functional
 configure:22284: WARNING: cross-compiling: assuming yes
 configure:22587: checking for arc4random
 configure:22643: arm-hisiv200-linux-gcc -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -fno-strict-aliasing -D_FORTIFY_SOURCE=2 -ftrapv -fno-builtin-memset -fstack-protector-all -fPIE -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/ssl  -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/ssl  		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -fstack-protector-all -pie conftest.c -lcrypto -lrt -ldl -lutil -lz -lnsl  -lcrypt >&5
-/tmp/cciARSCf.o: In function `main':
+/tmp/ccSHhHMO.o: In function `main':
 conftest.c:(.text+0x20): undefined reference to `arc4random'
 collect2: ld returned 1 exit status
 configure:22649: $? = 1
@@ -16682,7 +16682,7 @@ configure: failed program was:
 configure:22667: result: no
 configure:22587: checking for arc4random_buf
 configure:22643: arm-hisiv200-linux-gcc -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -fno-strict-aliasing -D_FORTIFY_SOURCE=2 -ftrapv -fno-builtin-memset -fstack-protector-all -fPIE -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/ssl  -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/ssl  		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -fstack-protector-all -pie conftest.c -lcrypto -lrt -ldl -lutil -lz -lnsl  -lcrypt >&5
-/tmp/ccmRDlSj.o: In function `main':
+/tmp/ccyEIrzX.o: In function `main':
 conftest.c:(.text+0x20): undefined reference to `arc4random_buf'
 collect2: ld returned 1 exit status
 configure:22649: $? = 1
@@ -16958,7 +16958,7 @@ configure: failed program was:
 configure:22667: result: no
 configure:22587: checking for arc4random_stir
 configure:22643: arm-hisiv200-linux-gcc -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -fno-strict-aliasing -D_FORTIFY_SOURCE=2 -ftrapv -fno-builtin-memset -fstack-protector-all -fPIE -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/ssl  -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/ssl  		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -fstack-protector-all -pie conftest.c -lcrypto -lrt -ldl -lutil -lz -lnsl  -lcrypt >&5
-/tmp/ccg7XTJo.o: In function `main':
+/tmp/cc2ed8K1.o: In function `main':
 conftest.c:(.text+0x20): undefined reference to `arc4random_stir'
 collect2: ld returned 1 exit status
 configure:22649: $? = 1
@@ -17234,7 +17234,7 @@ configure: failed program was:
 configure:22667: result: no
 configure:22587: checking for arc4random_uniform
 configure:22643: arm-hisiv200-linux-gcc -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -fno-strict-aliasing -D_FORTIFY_SOURCE=2 -ftrapv -fno-builtin-memset -fstack-protector-all -fPIE -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/ssl  -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/ssl  		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -fstack-protector-all -pie conftest.c -lcrypto -lrt -ldl -lutil -lz -lnsl  -lcrypt >&5
-/tmp/ccqFJWVs.o: In function `main':
+/tmp/ccgvPxK5.o: In function `main':
 conftest.c:(.text+0x20): undefined reference to `arc4random_uniform'
 collect2: ld returned 1 exit status
 configure:22649: $? = 1
@@ -23911,7 +23911,7 @@ configure:30534: $? = 0
 configure:30553: result: yes
 configure:30563: checking whether getopt has optreset support
 configure:30590: arm-hisiv200-linux-gcc -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -fno-strict-aliasing -D_FORTIFY_SOURCE=2 -ftrapv -fno-builtin-memset -fstack-protector-all -fPIE -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/ssl  -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/ssl  		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -fstack-protector-all -pie conftest.c -lcrypto -lrt -ldl -lutil -lz -lnsl  -lcrypt >&5
-/tmp/cciOyFIc.o: In function `main':
+/tmp/ccgwjLFF.o: In function `main':
 conftest.c:(.text+0x54): undefined reference to `optreset'
 collect2: ld returned 1 exit status
 configure:30596: $? = 1
@@ -24221,7 +24221,7 @@ configure:30652: arm-hisiv200-linux-gcc -o conftest  		-O2 		-I/opt/hisi-linux/x
 conftest.c: In function 'main':
 conftest.c:296: warning: implicit declaration of function 'printf'
 conftest.c:296: warning: incompatible implicit declaration of built-in function 'printf'
-/tmp/ccY0dF1g.o: In function `main':
+/tmp/ccgn6StJ.o: In function `main':
 conftest.c:(.text+0x60): warning: `sys_errlist' is deprecated; use `strerror' or `strerror_r' instead
 configure:30658: $? = 0
 configure:30677: result: yes
@@ -24230,13 +24230,13 @@ configure:30715: arm-hisiv200-linux-gcc -o conftest  		-O2 		-I/opt/hisi-linux/x
 conftest.c: In function 'main':
 conftest.c:297: warning: implicit declaration of function 'printf'
 conftest.c:297: warning: incompatible implicit declaration of built-in function 'printf'
-/tmp/ccyUaMAl.o: In function `main':
+/tmp/cc0jItvO.o: In function `main':
 conftest.c:(.text+0x60): warning: `sys_nerr' is deprecated; use `strerror' or `strerror_r' instead
 configure:30721: $? = 0
 configure:30740: result: yes
 configure:30751: checking for library containing getrrsetbyname
 configure:30792: arm-hisiv200-linux-gcc -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -fno-strict-aliasing -D_FORTIFY_SOURCE=2 -ftrapv -fno-builtin-memset -fstack-protector-all -fPIE -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/ssl  -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/ssl  		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -fstack-protector-all -pie conftest.c -lcrypto -lrt -ldl -lutil -lz -lnsl  -lcrypt >&5
-/tmp/cckK85Cq.o: In function `main':
+/tmp/ccCKD9ES.o: In function `main':
 conftest.c:(.text+0x20): undefined reference to `getrrsetbyname'
 collect2: ld returned 1 exit status
 configure:30798: $? = 1
@@ -24550,7 +24550,7 @@ configure: failed program was:
 |   return 0;
 | }
 configure:30792: arm-hisiv200-linux-gcc -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -fno-strict-aliasing -D_FORTIFY_SOURCE=2 -ftrapv -fno-builtin-memset -fstack-protector-all -fPIE -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/ssl  -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/ssl  		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -fstack-protector-all -pie conftest.c -lresolv  -lcrypto -lrt -ldl -lutil -lz -lnsl  -lcrypt >&5
-/tmp/ccUVMP0b.o: In function `main':
+/tmp/ccsT3UQX.o: In function `main':
 conftest.c:(.text+0x20): undefined reference to `getrrsetbyname'
 collect2: ld returned 1 exit status
 configure:30798: $? = 1
@@ -24866,7 +24866,7 @@ configure: failed program was:
 configure:30826: result: no
 configure:30839: checking for library containing res_query
 configure:30880: arm-hisiv200-linux-gcc -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -fno-strict-aliasing -D_FORTIFY_SOURCE=2 -ftrapv -fno-builtin-memset -fstack-protector-all -fPIE -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/ssl  -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/ssl  		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -fstack-protector-all -pie conftest.c -lcrypto -lrt -ldl -lutil -lz -lnsl  -lcrypt >&5
-/tmp/cc2B5c5g.o: In function `main':
+/tmp/ccczgxZ1.o: In function `main':
 conftest.c:(.text+0x20): undefined reference to `res_query'
 collect2: ld returned 1 exit status
 configure:30886: $? = 1
@@ -25180,7 +25180,7 @@ configure: failed program was:
 |   return 0;
 | }
 configure:30880: arm-hisiv200-linux-gcc -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -fno-strict-aliasing -D_FORTIFY_SOURCE=2 -ftrapv -fno-builtin-memset -fstack-protector-all -fPIE -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/ssl  -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/ssl  		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -fstack-protector-all -pie conftest.c -lresolv  -lcrypto -lrt -ldl -lutil -lz -lnsl  -lcrypt >&5
-/tmp/ccYHK4Al.o: In function `main':
+/tmp/ccETsHs6.o: In function `main':
 conftest.c:(.text+0x20): undefined reference to `res_query'
 collect2: ld returned 1 exit status
 configure:30886: $? = 1
@@ -25496,7 +25496,7 @@ configure: failed program was:
 configure:30914: result: no
 configure:30922: checking for library containing dn_expand
 configure:30963: arm-hisiv200-linux-gcc -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -fno-strict-aliasing -D_FORTIFY_SOURCE=2 -ftrapv -fno-builtin-memset -fstack-protector-all -fPIE -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/ssl  -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/ssl  		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -fstack-protector-all -pie conftest.c -lcrypto -lrt -ldl -lutil -lz -lnsl  -lcrypt >&5
-/tmp/ccGaPEnq.o: In function `main':
+/tmp/ccsFDLeb.o: In function `main':
 conftest.c:(.text+0x20): undefined reference to `dn_expand'
 collect2: ld returned 1 exit status
 configure:30969: $? = 1
@@ -25810,7 +25810,7 @@ configure: failed program was:
 |   return 0;
 | }
 configure:30963: arm-hisiv200-linux-gcc -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -fno-strict-aliasing -D_FORTIFY_SOURCE=2 -ftrapv -fno-builtin-memset -fstack-protector-all -fPIE -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/ssl  -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/ssl  		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -fstack-protector-all -pie conftest.c -lresolv  -lcrypto -lrt -ldl -lutil -lz -lnsl  -lcrypt >&5
-/tmp/cc8C1N2u.o: In function `main':
+/tmp/ccAPlqXf.o: In function `main':
 conftest.c:(.text+0x20): undefined reference to `dn_expand'
 collect2: ld returned 1 exit status
 configure:30969: $? = 1
@@ -26126,7 +26126,7 @@ configure: failed program was:
 configure:30997: result: no
 configure:31005: checking if res_query will link
 configure:31036: arm-hisiv200-linux-gcc -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -fno-strict-aliasing -D_FORTIFY_SOURCE=2 -ftrapv -fno-builtin-memset -fstack-protector-all -fPIE -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/ssl  -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/ssl  		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -fstack-protector-all -pie conftest.c -lcrypto -lrt -ldl -lutil -lz -lnsl  -lcrypt >&5
-/tmp/ccOGJ2CD.o: In function `main':
+/tmp/ccahL5vm.o: In function `main':
 conftest.c:(.text+0x38): undefined reference to `__res_query'
 collect2: ld returned 1 exit status
 configure:31042: $? = 1

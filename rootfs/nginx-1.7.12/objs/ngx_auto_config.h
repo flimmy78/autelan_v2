@@ -1,4 +1,4 @@
-#define NGX_CONFIGURE " --prefix=/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr --sbin-path=/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/sbin/ --conf-path=/tmp/config/nginx/nginx.conf --error-log-path=/tmp/log/nginx/error.log --http-log-path=/tmp/log/nginx/access.log --pid-path=/tmp/pid/nginx/nginx.pid --with-poll_module --with-http_realip_module --with-http_addition_module --with-http_xslt_module --with-http_auth_request_module --with-pcre=/home/hisisdk/histb_v2/autelan/autelan_scripts/../rootfs/pcre-8.36 --with-zlib=/home/hisisdk/histb_v2/autelan/autelan_scripts/../rootfs/zlib-1.2.8 --with-openssl=/home/hisisdk/histb_v2/autelan/autelan_scripts/../rootfs/ --with-cc-opt=' -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include' --with-ld-opt=' -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib'"
+#define NGX_CONFIGURE " --prefix=/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/usr --sbin-path=/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/usr/sbin/ --conf-path=/tmp/config/nginx/nginx.conf --error-log-path=/tmp/log/nginx/error.log --http-log-path=/tmp/log/nginx/access.log --pid-path=/tmp/pid/nginx/nginx.pid --lock-path=/tmp/lock/nginx/nginx.lock --with-poll_module --with-http_realip_module --with-http_addition_module --with-http_xslt_module --with-http_auth_request_module --with-pcre=/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../rootfs/pcre-8.36 --with-zlib=/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../rootfs/zlib-1.2.8 --with-openssl=/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../rootfs/ --with-cc-opt=' -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/local/include' --with-ld-opt=' -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib -L/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/lib -L/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/usr/lib -L/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/usr/local/lib'"
 
 #ifndef NGX_HAVE_SCHED_SETAFFINITY
 #define NGX_HAVE_SCHED_SETAFFINITY  1
@@ -289,7 +289,7 @@
 
 
 #ifndef NGX_PREFIX
-#define NGX_PREFIX  "/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/"
+#define NGX_PREFIX  "/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/usr/"
 #endif
 
 
@@ -299,7 +299,7 @@
 
 
 #ifndef NGX_SBIN_PATH
-#define NGX_SBIN_PATH  "/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/sbin/"
+#define NGX_SBIN_PATH  "/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/usr/sbin/"
 #endif
 
 
@@ -314,7 +314,7 @@
 
 
 #ifndef NGX_LOCK_PATH
-#define NGX_LOCK_PATH  "logs/nginx.lock"
+#define NGX_LOCK_PATH  "/tmp/lock/nginx/nginx.lock"
 #endif
 
 

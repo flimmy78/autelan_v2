@@ -1641,7 +1641,7 @@ configure: failed program was:
 configure:18702: result: no
 configure:18600: checking whether pthreads work without any flags
 configure:18693: arm-hisiv200-linux-gcc -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		    		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 conftest.c   >&5
-/tmp/cc848q8R.o: In function `main':
+/tmp/cc8rdAVl.o: In function `main':
 conftest.c:(.text+0x20): undefined reference to `pthread_create'
 conftest.c:(.text+0x2c): undefined reference to `pthread_join'
 conftest.c:(.text+0x50): undefined reference to `__pthread_register_cancel'
@@ -1715,7 +1715,7 @@ configure:18702: result: no
 configure:18605: checking whether pthreads work with -Kthread
 configure:18693: arm-hisiv200-linux-gcc -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		 -Kthread   		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 conftest.c   >&5
 arm-hisiv200-linux-gcc: unrecognized option '-Kthread'
-/tmp/ccQpTiZU.o: In function `main':
+/tmp/ccokuClt.o: In function `main':
 conftest.c:(.text+0x20): undefined reference to `pthread_create'
 conftest.c:(.text+0x2c): undefined reference to `pthread_join'
 conftest.c:(.text+0x50): undefined reference to `__pthread_register_cancel'
@@ -1789,7 +1789,7 @@ configure:18702: result: no
 configure:18605: checking whether pthreads work with -kthread
 configure:18693: arm-hisiv200-linux-gcc -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		 -kthread   		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 conftest.c   >&5
 arm-hisiv200-linux-gcc: unrecognized option '-kthread'
-/tmp/ccwZneZZ.o: In function `main':
+/tmp/ccCBajIz.o: In function `main':
 conftest.c:(.text+0x20): undefined reference to `pthread_create'
 conftest.c:(.text+0x2c): undefined reference to `pthread_join'
 conftest.c:(.text+0x50): undefined reference to `__pthread_register_cancel'

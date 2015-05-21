@@ -3155,7 +3155,7 @@ configure:9551: $? = 0
 configure:9551: result: yes
 configure:9557: checking for _doprnt
 configure:9557: arm-hisiv200-linux-gcc -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		   		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 conftest.c  >&5
-/tmp/ccAdX0MB.o: In function `main':
+/tmp/cckZBMRz.o: In function `main':
 conftest.c:(.text+0x4): undefined reference to `_doprnt'
 collect2: ld returned 1 exit status
 configure:9557: $? = 1
@@ -3518,7 +3518,7 @@ configure: failed program was:
 configure:9675: result: void
 configure:9684: checking for __setostype
 configure:9684: arm-hisiv200-linux-gcc -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		   		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 conftest.c  >&5
-/tmp/ccq3xXWK.o: In function `main':
+/tmp/cccoIfIK.o: In function `main':
 conftest.c:(.text+0x4): undefined reference to `__setostype'
 collect2: ld returned 1 exit status
 configure:9684: $? = 1
@@ -3788,7 +3788,7 @@ configure:9713: $? = 0
 configure:9713: result: yes
 configure:9713: checking for setdtablesize
 configure:9713: arm-hisiv200-linux-gcc -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		   		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 conftest.c  >&5
-/tmp/ccQcOWwG.o: In function `main':
+/tmp/ccKbBbEa.o: In function `main':
 conftest.c:(.text+0x4): undefined reference to `setdtablesize'
 collect2: ld returned 1 exit status
 configure:9713: $? = 1
@@ -4334,7 +4334,7 @@ configure:10475: $? = 0
 configure:10475: result: yes
 configure:10475: checking for fpurge
 configure:10475: arm-hisiv200-linux-gcc -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		   		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 conftest.c  >&5
-/tmp/ccwtNRIO.o: In function `main':
+/tmp/ccub5vWJ.o: In function `main':
 conftest.c:(.text+0x4): undefined reference to `fpurge'
 collect2: ld returned 1 exit status
 configure:10475: $? = 1
@@ -4740,7 +4740,7 @@ configure:10968: $? = 0
 configure:10968: result: yes
 configure:10974: checking for mbscasecmp
 configure:10974: arm-hisiv200-linux-gcc -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		   		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 conftest.c  >&5
-/tmp/ccUeBwNN.o: In function `main':
+/tmp/cck9nuNR.o: In function `main':
 conftest.c:(.text+0x4): undefined reference to `mbscasecmp'
 collect2: ld returned 1 exit status
 configure:10974: $? = 1
@@ -5057,7 +5057,7 @@ configure: failed program was:
 configure:10974: result: no
 configure:10980: checking for mbscmp
 configure:10980: arm-hisiv200-linux-gcc -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		   		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 conftest.c  >&5
-/tmp/cc4PQD9R.o: In function `main':
+/tmp/ccqK6SGW.o: In function `main':
 conftest.c:(.text+0x4): undefined reference to `mbscmp'
 collect2: ld returned 1 exit status
 configure:10980: $? = 1
@@ -5382,7 +5382,7 @@ configure:10992: $? = 0
 configure:10992: result: yes
 configure:10999: checking for mbschr
 configure:10999: arm-hisiv200-linux-gcc -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		   		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 conftest.c  >&5
-/tmp/ccs0o850.o: In function `main':
+/tmp/ccQlq2Va.o: In function `main':
 conftest.c:(.text+0x4): undefined reference to `mbschr'
 collect2: ld returned 1 exit status
 configure:10999: $? = 1
@@ -5771,7 +5771,7 @@ configure:11249: checking for wcwidth broken with unicode combining characters
 configure:11289: result: no
 configure:11302: checking for locale_charset
 configure:11302: arm-hisiv200-linux-gcc -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		   		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 conftest.c   >&5
-/tmp/ccIV8ovE.o: In function `main':
+/tmp/cccakh8X.o: In function `main':
 conftest.c:(.text+0x4): undefined reference to `locale_charset'
 collect2: ld returned 1 exit status
 configure:11302: $? = 1
@@ -20578,7 +20578,7 @@ configure:15453: WARNING: cannot check real-time signals if cross compiling -- d
 configure:15491: result: yes
 configure:15590: checking for tgetent
 configure:15590: arm-hisiv200-linux-gcc -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		   		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 conftest.c -ldl  >&5
-/tmp/ccufZrit.o: In function `main':
+/tmp/ccO3Snfj.o: In function `main':
 conftest.c:(.text+0x4): undefined reference to `tgetent'
 collect2: ld returned 1 exit status
 configure:15590: $? = 1

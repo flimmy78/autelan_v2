@@ -390,7 +390,7 @@ configure:6070: $? = 0
 configure:6070: result: yes
 configure:6070: checking for setmode
 configure:6070: arm-hisiv200-linux-gcc -o conftest -ansi  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		   		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 conftest.c  >&5
-/tmp/cccyCkvA.o: In function `main':
+/tmp/cckMG4B9.o: In function `main':
 conftest.c:(.text+0x4): undefined reference to `setmode'
 collect2: ld returned 1 exit status
 configure:6070: $? = 1

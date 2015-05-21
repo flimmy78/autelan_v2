@@ -859,7 +859,7 @@ configure:7054: $? = 0
 configure:7133: arm-hisiv200-linux-gcc -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		   		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 conftest.c  >&5
 configure:7133: $? = 0
 configure:7212: arm-hisiv200-linux-gcc -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		   		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 conftest.c  >&5
-/tmp/ccELcNJS.o: In function `main':
+/tmp/cciaoIUh.o: In function `main':
 conftest.c:(.text+0x4): undefined reference to `inet_ntoa_r'
 collect2: ld returned 1 exit status
 configure:7212: $? = 1
@@ -1630,7 +1630,7 @@ configure:19961: $? = 0
 configure:19963: result: yes
 configure:19980: checking for clock_gettime in libraries
 configure:20022: arm-hisiv200-linux-gcc -o conftest -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -isystem /home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include -Wno-system-headers   		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 conftest.c  >&5
-/tmp/cc8NLeja.o: In function `main':
+/tmp/ccwGzcg0.o: In function `main':
 conftest.c:(.text+0x10): undefined reference to `clock_gettime'
 collect2: ld returned 1 exit status
 configure:20022: $? = 1
@@ -3435,7 +3435,7 @@ configure:21939: $? = 0
 configure:21939: result: yes
 configure:21939: checking for RAND_screen
 configure:21939: arm-hisiv200-linux-gcc -o conftest -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -isystem /home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include -Wno-system-headers  -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/ssl/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/ssl/include/openssl  		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/ssl/lib conftest.c -lssl -lcrypto -lz -lrt >&5
-/tmp/ccuOwjxh.o: In function `main':
+/tmp/ccYSb8yq.o: In function `main':
 conftest.c:(.text+0x4): undefined reference to `RAND_screen'
 collect2: ld returned 1 exit status
 configure:21939: $? = 1
@@ -3746,7 +3746,7 @@ configure: failed program was:
 configure:22103: result: unknown
 configure:22112: checking for OpenSSL library version
 configure:22180: arm-hisiv200-linux-gcc -o conftest -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -isystem /home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include -Wno-system-headers  -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/ssl/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/ssl/include/openssl  		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/ssl/lib conftest.c -lssl -lcrypto -lz -lrt >&5
-/tmp/cccda2gP.o: In function `main':
+/tmp/ccCVEO5S.o: In function `main':
 conftest.c:(.text+0x4): undefined reference to `SSL_CTX_set_not_resumable_session_callback'
 collect2: ld returned 1 exit status
 configure:22180: $? = 1
@@ -16490,7 +16490,7 @@ configure:28735: checking for socket.h
 configure:28735: result: no
 configure:28754: checking if closesocket can be linked
 configure:28774: arm-hisiv200-linux-gcc -o conftest -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -isystem /home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include -Wno-system-headers  -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/ssl/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/ssl/include/openssl  		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/ssl/lib conftest.c -lssl -lcrypto -lz -lrt >&5
-/tmp/ccm6XsAh.o: In function `main':
+/tmp/ccspVGnq.o: In function `main':
 conftest.c:(.text+0x8): undefined reference to `closesocket'
 collect2: ld returned 1 exit status
 configure:28774: $? = 1
@@ -16718,7 +16718,7 @@ configure:28869: checking if closesocket might be used
 configure:28884: result: no
 configure:28896: checking if CloseSocket can be linked
 configure:28915: arm-hisiv200-linux-gcc -o conftest -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -isystem /home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include -Wno-system-headers  -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/ssl/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/ssl/include/openssl  		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/ssl/lib conftest.c -lssl -lcrypto -lz -lrt >&5
-/tmp/ccSMa4Bk.o: In function `main':
+/tmp/cckJyWQx.o: In function `main':
 conftest.c:(.text+0x8): undefined reference to `CloseSocket'
 collect2: ld returned 1 exit status
 configure:28915: $? = 1
@@ -19192,7 +19192,7 @@ configure:32563: checking for arpa/inet.h
 configure:32563: result: yes
 configure:32583: checking if inet_ntoa_r can be linked
 configure:32612: arm-hisiv200-linux-gcc -o conftest -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -isystem /home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include -Wno-system-headers  -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/ssl/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/ssl/include/openssl  		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/ssl/lib conftest.c -lssl -lcrypto -lz -lrt >&5
-/tmp/ccoPtJst.o: In function `main':
+/tmp/ccEPOfmQ.o: In function `main':
 conftest.c:(.text+0x4): undefined reference to `inet_ntoa_r'
 collect2: ld returned 1 exit status
 configure:32612: $? = 1
@@ -19525,7 +19525,7 @@ configure:33581: checking if ioctl SIOCGIFADDR might be used
 configure:33585: result: yes
 configure:33612: checking if ioctlsocket can be linked
 configure:33631: arm-hisiv200-linux-gcc -o conftest -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -isystem /home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include -Wno-system-headers  -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/ssl/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/ssl/include/openssl  		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/ssl/lib conftest.c -lssl -lcrypto -lz -lrt >&5
-/tmp/ccoH29Wa.o: In function `main':
+/tmp/ccyZ9Jun.o: In function `main':
 conftest.c:(.text+0x10): undefined reference to `ioctlsocket'
 collect2: ld returned 1 exit status
 configure:33631: $? = 1
@@ -19802,7 +19802,7 @@ configure:33724: checking if ioctlsocket might be used
 configure:33813: result: no
 configure:33825: checking if IoctlSocket can be linked
 configure:33854: arm-hisiv200-linux-gcc -o conftest -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -isystem /home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include -Wno-system-headers  -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/ssl/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/ssl/include/openssl  		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/ssl/lib conftest.c -lssl -lcrypto -lz -lrt >&5
-/tmp/ccSW9Ssg.o: In function `main':
+/tmp/ccWznvMr.o: In function `main':
 conftest.c:(.text+0x4): undefined reference to `IoctlSocket'
 collect2: ld returned 1 exit status
 configure:33854: $? = 1
@@ -20465,7 +20465,7 @@ configure:35337: checking for setjmp.h
 configure:35337: result: yes
 configure:35357: checking if sigsetjmp can be linked
 configure:35386: arm-hisiv200-linux-gcc -o conftest -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -isystem /home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include -Wno-system-headers  -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/ssl/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/ssl/include/openssl  		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/ssl/lib conftest.c -lssl -lcrypto -lz -lrt >&5
-/tmp/ccM4Ls8R.o: In function `main':
+/tmp/cckUO7tv.o: In function `main':
 conftest.c:(.text+0x4): undefined reference to `sigsetjmp'
 collect2: ld returned 1 exit status
 configure:35386: $? = 1
@@ -20802,7 +20802,7 @@ configure:35965: checking if strcasecmp might be used
 configure:35971: result: yes
 configure:35992: checking if strcmpi can be linked
 configure:36021: arm-hisiv200-linux-gcc -o conftest -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -isystem /home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include -Wno-system-headers  -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/ssl/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/ssl/include/openssl  		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/ssl/lib conftest.c -lssl -lcrypto -lz -lrt >&5
-/tmp/ccYqiCos.o: In function `main':
+/tmp/ccEUB81a.o: In function `main':
 conftest.c:(.text+0x4): undefined reference to `strcmpi'
 collect2: ld returned 1 exit status
 configure:36021: $? = 1
@@ -21980,7 +21980,7 @@ configure:36639: checking if strerror_r might be used
 configure:36645: result: yes
 configure:36702: checking if stricmp can be linked
 configure:36731: arm-hisiv200-linux-gcc -o conftest -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -isystem /home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include -Wno-system-headers  -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/ssl/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/ssl/include/openssl  		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/ssl/lib conftest.c -lssl -lcrypto -lz -lrt >&5
-/tmp/cc2KDKW1.o: In function `main':
+/tmp/ccOBoHNp.o: In function `main':
 conftest.c:(.text+0x4): undefined reference to `stricmp'
 collect2: ld returned 1 exit status
 configure:36731: $? = 1
@@ -22287,7 +22287,7 @@ configure:36973: checking if strncasecmp might be used
 configure:36979: result: yes
 configure:37000: checking if strncmpi can be linked
 configure:37029: arm-hisiv200-linux-gcc -o conftest -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -isystem /home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include -Wno-system-headers  -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/ssl/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/ssl/include/openssl  		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/ssl/lib conftest.c -lssl -lcrypto -lz -lrt >&5
-/tmp/ccCYxeCf.o: In function `main':
+/tmp/ccgBaOTJ.o: In function `main':
 conftest.c:(.text+0x4): undefined reference to `strncmpi'
 collect2: ld returned 1 exit status
 configure:37029: $? = 1
@@ -22580,7 +22580,7 @@ configure:37122: checking if strncmpi might be used
 configure:37137: result: no
 configure:37149: checking if strnicmp can be linked
 configure:37178: arm-hisiv200-linux-gcc -o conftest -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -isystem /home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include -Wno-system-headers  -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/ssl/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/ssl/include/openssl  		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/ssl/lib conftest.c -lssl -lcrypto -lz -lrt >&5
-/tmp/ccuM2adl.o: In function `main':
+/tmp/ccEDKbLP.o: In function `main':
 conftest.c:(.text+0x4): undefined reference to `strnicmp'
 collect2: ld returned 1 exit status
 configure:37178: $? = 1
@@ -22943,7 +22943,7 @@ configure:37943: $? = 0
 configure:37943: result: yes
 configure:37943: checking for getpass_r
 configure:37943: arm-hisiv200-linux-gcc -o conftest -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -isystem /home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include -Wno-system-headers  -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/ssl/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/ssl/include/openssl  		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/ssl/lib conftest.c -lssl -lcrypto -lz -lrt >&5
-/tmp/ccwiFwEP.o: In function `main':
+/tmp/ccot730H.o: In function `main':
 conftest.c:(.text+0x4): undefined reference to `getpass_r'
 collect2: ld returned 1 exit status
 configure:37943: $? = 1
@@ -23240,7 +23240,7 @@ configure: failed program was:
 configure:37943: result: no
 configure:37955: checking deeper for getpass_r
 configure:37972: arm-hisiv200-linux-gcc -o conftest -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -isystem /home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include -Wno-system-headers  -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/ssl/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/ssl/include/openssl  		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/ssl/lib conftest.c -lssl -lcrypto -lz -lrt >&5
-/tmp/cc6SjjNT.o: In function `main':
+/tmp/ccGqWNtL.o: In function `main':
 conftest.c:(.text+0x4): undefined reference to `getpass_r'
 collect2: ld returned 1 exit status
 configure:37972: $? = 1
@@ -23571,7 +23571,7 @@ configure:37943: $? = 0
 configure:37943: result: yes
 configure:37943: checking for setmode
 configure:37943: arm-hisiv200-linux-gcc -o conftest -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -isystem /home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include -Wno-system-headers  -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/ssl/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/ssl/include/openssl  		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/ssl/lib conftest.c -lssl -lcrypto -lz -lrt >&5
-/tmp/ccchpaAP.o: In function `main':
+/tmp/ccKKcOmA.o: In function `main':
 conftest.c:(.text+0x4): undefined reference to `setmode'
 collect2: ld returned 1 exit status
 configure:37943: $? = 1
@@ -23879,7 +23879,7 @@ configure: failed program was:
 configure:37943: result: no
 configure:37955: checking deeper for setmode
 configure:37972: arm-hisiv200-linux-gcc -o conftest -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -isystem /home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include -Wno-system-headers  -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/ssl/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/ssl/include/openssl  		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/ssl/lib conftest.c -lssl -lcrypto -lz -lrt >&5
-/tmp/cckn13ST.o: In function `main':
+/tmp/ccukMAjD.o: In function `main':
 conftest.c:(.text+0x4): undefined reference to `setmode'
 collect2: ld returned 1 exit status
 configure:37972: $? = 1

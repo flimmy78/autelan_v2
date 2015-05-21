@@ -4,7 +4,7 @@ if [ -z "${hisitopdir}" ]; then export hisitopdir=$(pwd)/../..; fi
 . ${hisitopdir}/autelan_scripts/autelan.apps
 
 rm -fr /tmp/config/* /tmp/log/* /tmp/pid/*
-mkdir -p /tmp/config/nginx /tmp/log/nginx /tmp/pid/nginx
+mkdir -p /tmp/config/nginx /tmp/log/nginx /tmp/pid/nginx /tmp/lock/nginx
 
 package_common "$(pwd)"
 

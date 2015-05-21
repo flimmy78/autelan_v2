@@ -3558,7 +3558,7 @@ configure:17299: $? = 0
 configure:17299: result: yes
 configure:17299: checking for secure_getenv
 configure:17299: arm-hisiv200-linux-gcc -std=gnu99 -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		   		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 conftest.c  >&5
-/tmp/ccU93wVO.o: In function `main':
+/tmp/cck2X2e9.o: In function `main':
 conftest.c:(.text+0x4): undefined reference to `secure_getenv'
 collect2: ld returned 1 exit status
 configure:17299: $? = 1
@@ -3715,7 +3715,7 @@ configure:17299: $? = 0
 configure:17299: result: yes
 configure:17299: checking for getexecname
 configure:17299: arm-hisiv200-linux-gcc -std=gnu99 -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		   		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 conftest.c  >&5
-/tmp/ccGRvS1h.o: In function `main':
+/tmp/ccEyJ3oo.o: In function `main':
 conftest.c:(.text+0x4): undefined reference to `getexecname'
 collect2: ld returned 1 exit status
 configure:17299: $? = 1
@@ -3851,7 +3851,7 @@ configure: failed program was:
 configure:17299: result: no
 configure:17299: checking for getmntinfo
 configure:17299: arm-hisiv200-linux-gcc -std=gnu99 -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		   		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 conftest.c  >&5
-/tmp/cc6QPOak.o: In function `main':
+/tmp/ccCjjwpp.o: In function `main':
 conftest.c:(.text+0x4): undefined reference to `getmntinfo'
 collect2: ld returned 1 exit status
 configure:17299: $? = 1
@@ -4007,7 +4007,7 @@ configure:17299: $? = 0
 configure:17299: result: yes
 configure:17299: checking for llseek
 configure:17299: arm-hisiv200-linux-gcc -std=gnu99 -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		   		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 conftest.c  >&5
-/tmp/cc6Qas0K.o: In function `main':
+/tmp/ccye9zNM.o: In function `main':
 conftest.c:(.text+0x4): warning: the `llseek' function may be dangerous; use `lseek64' instead.
 configure:17299: $? = 0
 configure:17299: result: yes
@@ -4054,7 +4054,7 @@ configure:17299: $? = 0
 configure:17299: result: yes
 configure:17299: checking for scandirat
 configure:17299: arm-hisiv200-linux-gcc -std=gnu99 -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		   		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 conftest.c  >&5
-/tmp/ccaaWhpu.o: In function `main':
+/tmp/cckYu7sw.o: In function `main':
 conftest.c:(.text+0x4): undefined reference to `scandirat'
 collect2: ld returned 1 exit status
 configure:17299: $? = 1
@@ -4222,7 +4222,7 @@ configure:17299: $? = 0
 configure:17299: result: yes
 configure:17299: checking for strnchr
 configure:17299: arm-hisiv200-linux-gcc -std=gnu99 -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		   		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 conftest.c  >&5
-/tmp/ccE0FQdt.o: In function `main':
+/tmp/ccYol89S.o: In function `main':
 conftest.c:(.text+0x4): undefined reference to `strnchr'
 collect2: ld returned 1 exit status
 configure:17299: $? = 1
@@ -4443,7 +4443,7 @@ configure:17416: $? = 0
 configure:17416: result: yes
 configure:17428: checking for clock_gettime
 configure:17428: arm-hisiv200-linux-gcc -std=gnu99 -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		   		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 conftest.c  >&5
-/tmp/cce38ErA.o: In function `main':
+/tmp/ccUHsfoy.o: In function `main':
 conftest.c:(.text+0x4): undefined reference to `clock_gettime'
 collect2: ld returned 1 exit status
 configure:17428: $? = 1
@@ -5764,7 +5764,7 @@ configure:18419: result: yes
 configure:18419: checking for crypt.h
 configure:18419: result: yes
 configure:18449: arm-hisiv200-linux-gcc -std=gnu99 -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		   		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 conftest.c -lutil  >&5
-/tmp/ccU6ikqn.o: In function `main':
+/tmp/ccGTwcTP.o: In function `main':
 conftest.c:(.text+0xc): undefined reference to `crypt'
 collect2: ld returned 1 exit status
 configure:18449: $? = 1
@@ -6625,7 +6625,7 @@ configure:21529: WARNING: Unable to detect syscall setns.
 configure:21545: WARNING: setns syscall not found; not building nsenter
 configure:21564: checking for setns
 configure:21564: arm-hisiv200-linux-gcc -std=gnu99 -o conftest  		-O2 		-I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include 		-I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/autelan_scripts/../fakerelease/usr/local/include 		   		-L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib 		-L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/lib -L/home/hisisdk/histb_v2/autelan/autelan_scripts/../release/usr/local/lib 		 conftest.c -lutil  -lcrypt >&5
-/tmp/cc8xtCoL.o: In function `main':
+/tmp/cc2fUDTi.o: In function `main':
 conftest.c:(.text+0x4): undefined reference to `setns'
 collect2: ld returned 1 exit status
 configure:21564: $? = 1

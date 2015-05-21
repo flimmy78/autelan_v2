@@ -22,6 +22,7 @@ if [ -z "${hisitopdir}" ]; then export hisitopdir=$(pwd)/../..; fi
 	--error-log-path=/tmp/log/nginx/error.log \
 	--http-log-path=/tmp/log/nginx/access.log \
 	--pid-path=/tmp/pid/nginx/nginx.pid \
+	--lock-path=/tmp/lock/nginx/nginx.lock \
 	\
 	--with-poll_module \
 	--with-http_realip_module \

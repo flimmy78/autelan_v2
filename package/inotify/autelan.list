@@ -1,0 +1,11 @@
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating src/Makefile
+config.status: creating man/Makefile
+config.status: creating man/inotifywait.1
+config.status: creating man/inotifywatch.1
+config.status: creating libinotifytools/Makefile
+config.status: creating libinotifytools/src/Makefile
+config.status: creating libinotifytools/src/inotifytools/Makefile
+config.status: creating config.h
+config.status: creating libinotifytools/src/inotifytools/inotify.h
