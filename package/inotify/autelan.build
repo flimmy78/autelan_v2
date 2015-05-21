@@ -6,5 +6,5 @@ if [ -z "${hisitopdir}" ]; then export hisitopdir=$(pwd)/../..; fi
 package_common "$(pwd)"
 
 rm -f ${auterelease}/usr/lib/libinotifytools.la
-
+rm -fr ${auterelease}/usr/html
 
