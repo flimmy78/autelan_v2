@@ -11,3 +11,4 @@ package_common "$(pwd)"
 mkdir -p ${auterelease}/usr/local/nginx/conf/
 cp -fpR /tmp/config/nginx/* ${auterelease}/usr/local/nginx/conf/
 
+rm -fr ${auterelease}/usr/html
