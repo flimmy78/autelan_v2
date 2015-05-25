@@ -1,4 +1,4 @@
-#define NGX_CONFIGURE " --prefix=/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/usr --sbin-path=/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/usr/sbin/ --conf-path=/tmp/config/nginx/nginx.conf --error-log-path=/tmp/log/nginx/error.log --http-log-path=/tmp/log/nginx/access.log --pid-path=/tmp/pid/nginx/nginx.pid --lock-path=/tmp/lock/nginx/nginx.lock --with-poll_module --with-http_realip_module --with-http_addition_module --with-http_xslt_module --with-http_auth_request_module --with-pcre=/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../rootfs/pcre-8.36 --with-zlib=/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../rootfs/zlib-1.2.8 --with-openssl=/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../rootfs/ --with-cc-opt=' -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/local/include' --with-ld-opt=' -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib -L/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/lib -L/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/usr/lib -L/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/usr/local/lib'"
+#define NGX_CONFIGURE " --prefix=/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/usr --sbin-path=/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/usr/sbin/ --conf-path=/tmp/config/nginx/nginx.conf --error-log-path=/tmp/log/nginx/error.log --http-log-path=/tmp/log/nginx/access.log --pid-path=/tmp/pid/nginx/nginx.pid --lock-path=/tmp/lock/nginx/nginx.lock --with-poll_module --with-http_realip_module --with-http_addition_module --with-http_stub_status_module --with-http_xslt_module --with-http_auth_request_module --add-module=/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../rootfs/nginx-module/nginx-http-footer-filter --with-pcre=/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../rootfs/pcre-8.36 --with-zlib=/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../rootfs/zlib-1.2.8 --with-openssl=/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../rootfs/ --with-cc-opt=' -O2 -I/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/include -I/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../fakerelease/usr/local/include' --with-ld-opt=' -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/lib -L/opt/hisi-linux/x86-arm/arm-hisiv200-linux/target/usr/lib -L/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/lib -L/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/usr/lib -L/home/hisisdk/histb_v2/autelan/rootfs/nginx-1.7.12/../../release/usr/local/lib'"
 
 #ifndef NGX_HAVE_SCHED_SETAFFINITY
 #define NGX_HAVE_SCHED_SETAFFINITY  1
@@ -250,6 +250,11 @@
 
 #ifndef NGX_HTTP_X_FORWARDED_FOR
 #define NGX_HTTP_X_FORWARDED_FOR  1
+#endif
+
+
+#ifndef NGX_STAT_STUB
+#define NGX_STAT_STUB  1
 #endif
 
 
