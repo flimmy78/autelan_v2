@@ -1,0 +1,14 @@
+#!/bin/bash
+
+if [ -z "${hisitopdir}" ]; then export hisitopdir=$(pwd)/../..; fi
+. ${hisitopdir}/autelan_scripts/autelan.apps
+
+package_prepare "$(pwd)"
+package_compile "$(pwd)"
+
+cp -f binutils/addr2line ${auterelease}/bin/
+cp -f binutils/objdump   ${auterelease}/bin/
+cp -f binutils/readelf 	 ${auterelease}/bin/
+cp -f binutils/strings   ${auterelease}/bin/
+cp -f binutils/sysinfo   ${auterelease}/bin/
+
