@@ -4023,7 +4023,7 @@ EXTRA_DIST = $(changelog_etc) .mailmap .prev-version .version \
 	lib/xnanosleep.h lib/xreadlink.h lib/xstrtod.h lib/xstrtol.h \
 	lib/xstrtod.c lib/xstrtod.h lib/xalloc.h lib/yesno.h src/dcgen \
 	src/dircolors.hin src/primes.h src/tac-pipe.c \
-	src/extract-magic src/c99-to-c89.diff \
+	src/extract-magic src/c99-to-c89.diff  \
 	man/dummy-man $(man1_MANS:.1=.x) $(EXTRA_MANS:.1=.x) \
 	$(all_tests) init.cfg tests/Coreutils.pm tests/CuSkip.pm \
 	tests/CuTmpdir.pm tests/d_type-check tests/envvar-check \

@@ -6,7 +6,8 @@ if [ -z "${hisitopdir}" ]; then export hisitopdir=$(pwd)/../..; fi
 package_prepare $(pwd)
 package_compile $(pwd)
 
-mkdir -p ${auterelease}/usr/bin
+mkdir -p ${auterelease}/usr/bin ${auterelease}/bin
+
 CP_FILE src/base64 ${auterelease}/usr/bin/
 CP_FILE src/du     ${auterelease}/usr/bin/
-
+CP_FILE src/date   ${auterelease}/bin/
