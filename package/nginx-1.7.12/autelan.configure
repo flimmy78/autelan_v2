@@ -30,6 +30,7 @@ if [ -z "${hisitopdir}" ]; then export hisitopdir=$(pwd)/../..; fi
 	--with-http_stub_status_module \
 	--with-http_xslt_module \
 	--with-http_auth_request_module \
+	--with-http_sub_module \
 	--add-module=${auterootfs}/nginx-module/nginx-http-footer-filter \
 	\
 	--with-pcre=${auterootfs}/$(get_app_name pcre) \
