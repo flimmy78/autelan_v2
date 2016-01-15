@@ -196,6 +196,7 @@ objs/nginx:	objs/src/core/nginx.o \
 	objs/src/http/modules/ngx_http_ssi_filter_module.o \
 	objs/src/http/modules/ngx_http_charset_filter_module.o \
 	objs/src/http/modules/ngx_http_xslt_filter_module.o \
+	objs/src/http/modules/ngx_http_sub_filter_module.o \
 	objs/src/http/modules/ngx_http_addition_filter_module.o \
 	objs/src/http/modules/ngx_http_userid_filter_module.o \
 	objs/src/http/modules/ngx_http_autoindex_module.o \
@@ -315,6 +316,7 @@ objs/nginx:	objs/src/core/nginx.o \
 	objs/src/http/modules/ngx_http_ssi_filter_module.o \
 	objs/src/http/modules/ngx_http_charset_filter_module.o \
 	objs/src/http/modules/ngx_http_xslt_filter_module.o \
+	objs/src/http/modules/ngx_http_sub_filter_module.o \
 	objs/src/http/modules/ngx_http_addition_filter_module.o \
 	objs/src/http/modules/ngx_http_userid_filter_module.o \
 	objs/src/http/modules/ngx_http_autoindex_module.o \
@@ -961,6 +963,13 @@ objs/src/http/modules/ngx_http_xslt_filter_module.o:	$(CORE_DEPS) $(HTTP_DEPS) \
 	$(CC) -c $(CFLAGS) $(CORE_INCS) $(HTTP_INCS) \
 		-o objs/src/http/modules/ngx_http_xslt_filter_module.o \
 		src/http/modules/ngx_http_xslt_filter_module.c
+
+
+objs/src/http/modules/ngx_http_sub_filter_module.o:	$(CORE_DEPS) $(HTTP_DEPS) \
+	src/http/modules/ngx_http_sub_filter_module.c
+	$(CC) -c $(CFLAGS) $(CORE_INCS) $(HTTP_INCS) \
+		-o objs/src/http/modules/ngx_http_sub_filter_module.o \
+		src/http/modules/ngx_http_sub_filter_module.c
 
 
 objs/src/http/modules/ngx_http_addition_filter_module.o:	$(CORE_DEPS) $(HTTP_DEPS) \
